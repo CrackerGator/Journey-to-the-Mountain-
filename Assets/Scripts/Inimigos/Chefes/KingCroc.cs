@@ -5,7 +5,6 @@ using UnityEngine.Rendering;
 
 public class KingCroc : Inimigo{ 
     public Transform Jogador;
-
     public float Velocidade = 3f;
 
     [Header("Ataque")]
@@ -72,6 +71,8 @@ public class KingCroc : Inimigo{
 
     void Mover(){
         Vector2 Direcao = (Jogador.position - transform.position).normalized;
+        Direcao.y = 0;
+        Direcao = Direcao.normalized;
         Body.linearVelocity = Direcao * Velocidade;
     }
 
@@ -118,6 +119,8 @@ public class KingCroc : Inimigo{
 
         float T0 = 0f;
         Vector2 Direcao = (Jogador.position - transform.position).normalized;
+        Direcao.y = 0;
+        Direcao = Direcao.normalized;
 
         while(T0 < DashDuracao){
             Body.linearVelocity = Direcao * DashVelocidade;

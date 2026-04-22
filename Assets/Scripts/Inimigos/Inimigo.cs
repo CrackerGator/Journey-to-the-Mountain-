@@ -3,24 +3,14 @@ using UnityEngine;
 public class Inimigo : MonoBehaviour{
     public int Vida;
     protected Rigidbody2D Body;
-    public Collider2D ColliderInimigo;
+    protected Collider2D[] Colliders;
 
     public bool Derrotado = false;
 
     void Awake(){
         Body = GetComponent<Rigidbody2D>();
-        ColliderInimigo = GetComponent<Collider2D>();
+        Colliders = GetComponentsInChildren<Collider2D>();
     }
-
-    private void OnTriggerEnter2D(Collider2D collider){
-        if (collider.CompareTag("Jogador")){
-            Jogador J = collider.GetComponent<Jogador>();
-            if(J != null){
-                J.TomarDano(1, transform.position);
-            }
-        }
-    }
-
     public void TomarDano(int Dano){
         Vida -= Dano;
         if(Vida <= 0){
@@ -35,8 +25,8 @@ public class Inimigo : MonoBehaviour{
             Body.linearVelocity = Vector2.zero;
             Body.simulated = false;
         }
-        if (ColliderInimigo != null){
-            ColliderInimigo.enabled = false;
+        foreach (Collider2D C in Colliders){
+            C.enabled = false;
         }
 
         this.enabled = false;
