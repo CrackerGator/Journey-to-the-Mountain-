@@ -9,11 +9,6 @@ public class Jogador : MonoBehaviour{
 
     public int Vida;
     public int VidaTotal;
-    public Vector3 Respawn;
-    public string Cena;
-    public GameObject GameOver; 
-    public GameObject TelaPause;
-    public bool Pausado = false;
     
     private Rigidbody2D Body;
     private SpriteRenderer Sprite1;
@@ -48,9 +43,6 @@ public class Jogador : MonoBehaviour{
     public float TempoInvencivel;
     
     void Start(){
-        TelaPause.SetActive(false);
-        Time.timeScale = 1;
-
         Body = GetComponent<Rigidbody2D>();
         Sprite1 = GetComponent<SpriteRenderer>();
         Animacao = GetComponent<Animator>();
@@ -58,8 +50,6 @@ public class Jogador : MonoBehaviour{
         foreach (Transform Objetos in transform){
             Objetos.gameObject.SetActive(false);
         }
-
-        Respawn = transform.position;
     }
     void Update(){   
         X = Input.GetAxis("Horizontal");
@@ -69,15 +59,11 @@ public class Jogador : MonoBehaviour{
         Pular();
         Atacar();
 
-        if (Input.GetKeyDown(KeyCode.Escape)){
-            Pause();
-        }
-
         if(Vida <= 0){
             this.enabled = false;
-            GameOver.SetActive(true);
+            Game_Over.Instancia.Perdeu();
+            Geral.Instancia.Mortes++;
         }
-
     }
     void FixedUpdate(){
         Movimentar();
@@ -207,25 +193,4 @@ public class Jogador : MonoBehaviour{
         //Animacao.Play("vida_cheia");
         return;
     }    
-
-    public void Pause(){
-        if(Pausado == false){
-            Pausado = true;
-            Time.timeScale = 0;
-            TelaPause.SetActive(true);
-        }
-        else{
-            Pausado = false;
-            Time.timeScale = 1;
-            TelaPause.SetActive(false);
-        }
-    }
-    public void Retomar(){
-        Pausado = false;
-        Time.timeScale = 1;
-        TelaPause.SetActive(false);
-    }
-    public void Sair(){
-        SceneManager.LoadScene("Menu");
-    }
 }
