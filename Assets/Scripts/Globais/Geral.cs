@@ -6,6 +6,8 @@ public class Geral : MonoBehaviour{
     public string NomeJogador = "??????";
     public string FaseAtual;
     public int Mortes = 0;
+    
+    public int Chaves = 0;
 
     private void Awake(){
         if (Instancia == null){

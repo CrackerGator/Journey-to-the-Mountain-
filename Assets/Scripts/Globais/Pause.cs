@@ -12,8 +12,6 @@ public class Pause : MonoBehaviour{
     }
     void Update(){
         if (Input.GetKeyDown(KeyCode.Escape)){
-            Debug.Log("ESC pressionado");
-            Debug.Log(UI.Instancia);
             Esc();
         }
     }

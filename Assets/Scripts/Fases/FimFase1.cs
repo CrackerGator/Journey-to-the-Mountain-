@@ -6,9 +6,7 @@ public class FimFase1: MonoBehaviour{
     void OnTriggerEnter2D(Collider2D collider){
         if (collider.CompareTag("Jogador")){
             Geral.Instancia.FaseAtual = ProximaFase;
-
             SaveManager.Instancia.Salvar();
-
             Fade.Instancia.TrocarCena(ProximaCena);
         }
     }
