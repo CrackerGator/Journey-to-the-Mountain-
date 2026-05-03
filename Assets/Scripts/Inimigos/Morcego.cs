@@ -25,8 +25,6 @@ public enum Estado {Inicial, Indo, Voltando}
     void Update(){
         DistanciaJogador = Vector2.Distance(Jogador.position, transform.position);
         Perseguir();
-
-    
     }
 
     private void Perseguir(){

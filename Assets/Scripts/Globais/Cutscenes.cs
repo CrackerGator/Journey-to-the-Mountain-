@@ -6,17 +6,25 @@ using System.Collections;
 public class Cutscenes : MonoBehaviour{
     public Image Imagem; 
     public Sprite[] Quadros;
+
+    [System.Serializable]
+    public class Animacao{
+        public int Inicio;
+        public int Frames;
+    }
+    public Animacao[] QuadrosAnimados;
+    public float TempoAnimacao;
+
     public string ProximaFase;
 
     public CanvasGroup canvasGroup;
-    public float VelocidadeFade = 2f;
+    public float VelocidadeFade;
 
     private int i = 0;
     private bool Fading = false;
 
     void Start(){
         MostrarQuadro();
-
     }
 
     void Update(){
@@ -26,7 +34,18 @@ public class Cutscenes : MonoBehaviour{
     }
 
     void MostrarQuadro(){
+        Animacao A = BuscarAnimacao(i);
+        if(A != null){
+            StartCoroutine(RodarAnimacao(A));
+        }
+        else
         Imagem.sprite = Quadros[i];
+    }
+    Animacao BuscarAnimacao(int i){
+        foreach(var A in QuadrosAnimados){
+            if(A.Inicio == i){return A;}
+        }
+        return null;
     }
 
     IEnumerator ProximoQuadro(){
@@ -36,13 +55,22 @@ public class Cutscenes : MonoBehaviour{
         i++;
 
         if (i >= Quadros.Length){
-            SceneManager.LoadScene(ProximaFase);
+            Fade.Instancia.TrocarCena(ProximaFase);
             yield break;
         }
 
         MostrarQuadro();
 
         yield return StartCoroutine(FadeIn());
+        Fading = false;
+    }
+    IEnumerator RodarAnimacao(Animacao A){
+        Fading = true;
+        for (int f = 0; f < A.Frames; f++){
+            Imagem.sprite = Quadros[i + f];
+            yield return new WaitForSeconds(TempoAnimacao);
+        }
+        i += A.Frames - 1;
         Fading = false;
     }
 
