@@ -6,6 +6,7 @@ using UnityEngine.Rendering;
 public class KingCroc : Inimigo{ 
     public Transform Jogador;
     public float Velocidade = 3f;
+    private Animator Animacao;
 
     [Header("Ataque")]
     public GameObject ColliderAtaque;
@@ -76,13 +77,39 @@ public class KingCroc : Inimigo{
         Body.linearVelocity = Direcao * Velocidade;
     }
 
+    IEnumerator Ataque(){
+        Atacando = true;
+        yield return StartCoroutine(Antecipar("Mordida"));
+
+        ColliderAtaque.SetActive(true);
+        //Animacao.Play("Ataque_Mordida");
+        yield return new WaitForSeconds(0.3f);
+        ColliderAtaque.SetActive(false);
+
+        TerminarAtaque();
+    }
+
+    IEnumerator Dash(){
+        Atacando = true;
+        yield return StartCoroutine(Antecipar("Dash"));
+
+        float T0 = 0f;
+        Vector2 Direcao = (Jogador.position - transform.position).normalized;
+        Direcao.y = 0;
+        Direcao = Direcao.normalized;
+
+        while(T0 < DashDuracao){
+            Body.linearVelocity = Direcao * DashVelocidade;
+            //Animacao.Play("Ataque_Mordida");
+            T0 += Time.deltaTime;
+            yield return null;
+        }
+        Body.linearVelocity = Vector2.zero;
+
+        TerminarAtaque();
+    }
+
     IEnumerator Antecipar(string NomeAtaque){
-        Debug.Log("Preparando: "+ NomeAtaque);
-
-        // Animação, Cor, Som
-
-        SetCor(CorPreparando);
-
         if (NomeAtaque == "Mordida"){
             //Animacao.Play("Preparando_Mordida");
             
@@ -93,45 +120,6 @@ public class KingCroc : Inimigo{
         }
 
         yield return new WaitForSeconds(Preparando);
-    }
-
-    IEnumerator Ataque(){
-        Atacando = true;
-        yield return StartCoroutine(Antecipar("Mordida"));
-
-        SetCor(CorMordida);
-
-        ColliderAtaque.SetActive(true);
-        //Animacao.Play("Ataque_Mordida");
-        yield return new WaitForSeconds(0.3f);
-        ColliderAtaque.SetActive(false);
-
-        SetCor(CorNormal);
-
-        TerminarAtaque();
-    }
-
-    IEnumerator Dash(){
-        Atacando = true;
-        yield return StartCoroutine(Antecipar("Dash"));
-
-        SetCor(CorDash);
-
-        float T0 = 0f;
-        Vector2 Direcao = (Jogador.position - transform.position).normalized;
-        Direcao.y = 0;
-        Direcao = Direcao.normalized;
-
-        while(T0 < DashDuracao){
-            Body.linearVelocity = Direcao * DashVelocidade;
-            T0 += Time.deltaTime;
-            yield return null;
-        }
-        Body.linearVelocity = Vector2.zero;
-
-        SetCor(CorNormal);
-
-        TerminarAtaque();
     }
 
     void TerminarAtaque(){
@@ -147,7 +135,6 @@ public class KingCroc : Inimigo{
         if (Body != null){
             Body.linearVelocity = Vector2.zero;
         }
-        Debug.Log("Quinou");
 
         this.enabled = false;
     }   

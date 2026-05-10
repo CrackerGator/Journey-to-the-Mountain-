@@ -1,13 +1,20 @@
 using UnityEngine;
 
+public enum TipoAnimal{
+    Nenhum,
+    Crocodilo,
+    Jacaré
+}
+
 public class Geral : MonoBehaviour{
     public static Geral Instancia;
 
     public string NomeJogador = "??????";
     public string FaseAtual;
     public int Mortes = 0;
-    
+    public TipoAnimal A = TipoAnimal.Nenhum;
     public int Chaves = 0;
+    public bool atalho;
 
     private void Awake(){
         if (Instancia == null){

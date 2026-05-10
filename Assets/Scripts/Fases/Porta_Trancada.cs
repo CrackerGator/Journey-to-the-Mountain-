@@ -5,7 +5,7 @@ public class Porta_Trancada : MonoBehaviour{
     public string ProximaCena;
     public string ProximaFase;
 
-    public SpriteRenderer sprite;
+    public SpriteRenderer Sprite;
     public Color CorFechada = Color.red;
     public Color CorAberta = Color.green;
 
@@ -25,7 +25,7 @@ public class Porta_Trancada : MonoBehaviour{
 
     void AbrirPorta(){
         Aberta = true;
-        sprite.color = CorAberta;
+        Sprite.color = CorAberta;
 
         Debug.Log("Porta aberta!");
     }

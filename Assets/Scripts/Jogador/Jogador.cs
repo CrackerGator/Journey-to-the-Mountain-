@@ -16,7 +16,6 @@ public class Jogador : MonoBehaviour{
 
     [Header("Movimento")]
     public float X;
-    public float Y;
     public float Velocidade;
     public float Altura;
     public bool PuloDuplo;
@@ -32,8 +31,6 @@ public class Jogador : MonoBehaviour{
     [Header("Ataque")]
     public GameObject AtaqueDireita;
     public GameObject AtaqueEsquerda;
-    public GameObject AtaqueCima;
-    public GameObject AtaqueBaixo;
 
     [Header("Knockback")]
     public bool Knockbacked = false;
@@ -53,7 +50,6 @@ public class Jogador : MonoBehaviour{
     }
     void Update(){   
         X = Input.GetAxis("Horizontal");
-        Y = Input.GetAxis("Vertical");
         
         Animar();
         Pular();
@@ -111,18 +107,6 @@ public class Jogador : MonoBehaviour{
             //Animacao.Play("Jogador_Ataque");
             yield return new WaitForSeconds(TempoAtaque);
             AtaqueEsquerda.SetActive(false);
-        }
-        else if(Y > 0){
-            AtaqueCima.SetActive(true);
-            //Animacao.Play("Jogador_AtaqueU");
-            yield return new WaitForSeconds(TempoAtaque);
-            AtaqueCima.SetActive(false);
-        }
-        else if(Y < 0){
-            AtaqueBaixo.SetActive(true);
-            //Animacao.Play("Jogador_AtaqueD");
-            yield return new WaitForSeconds(TempoAtaque);
-            AtaqueBaixo.SetActive(false);
         }
         else{
             if(Sprite1.flipX == false){
@@ -183,14 +167,5 @@ public class Jogador : MonoBehaviour{
 
         if (X > 0){Sprite1.flipX = false;}
         else if (X < 0){Sprite1.flipX = true;}
-    }
-
-    private void OnTriggerEnter2D(Collider2D collider){
-        if(collider.CompareTag("Cura") && Vida < VidaTotal){
-            Animacao.Play("player_idle");
-        }
-        else
-        //Animacao.Play("vida_cheia");
-        return;
-    }    
+    }   
 }
