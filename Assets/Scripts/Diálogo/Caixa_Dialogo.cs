@@ -10,8 +10,8 @@ public class Caixa_Dialogo : MonoBehaviour{
     public class FalaDialogo{
         [TextArea(2, 4)]
         public string Texto;
-        public Sprite ImagemPersonagem;
         public string NomePersonagem;
+        public Sprite ImagemPersonagem;
         public bool Jogador;
         public Font Fonte;
         public AudioClip Som;
@@ -19,8 +19,8 @@ public class Caixa_Dialogo : MonoBehaviour{
 
     [Header("UI")]
     public Text TextoUI;
-    public Image ImagemUI;
     public Text NomeUI;
+    public Image ImagemUI;
     private AudioSource Audio;
 
     [Header("Configurações")]
@@ -47,7 +47,10 @@ public class Caixa_Dialogo : MonoBehaviour{
         while(Indice < ListaFalas.Count){
             FalaDialogo F = ListaFalas[Indice];
 
+            TextoUI.font = F.Fonte;
+            NomeUI.font = F.Fonte;
             ImagemUI.sprite = F.ImagemPersonagem;
+            
 
             if(F.Jogador == true){
                 NomeUI.text = Geral.Instancia.NomeJogador;
@@ -56,7 +59,7 @@ public class Caixa_Dialogo : MonoBehaviour{
             NomeUI.text = F.NomePersonagem;
 
             yield return StartCoroutine(EscreverLinha(F.Texto));
-            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Q));
+            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Return));
 
             Indice++;
         }
@@ -64,6 +67,10 @@ public class Caixa_Dialogo : MonoBehaviour{
         Ativa = false;
         J.enabled = true;
         
+        Sequencia_Caixas S = transform.parent.GetComponent<Sequencia_Caixas>();
+
+        if(S != null){S.Fechar();}
+
         gameObject.SetActive(false);
     }
 
@@ -79,7 +86,7 @@ public class Caixa_Dialogo : MonoBehaviour{
             Audio.PlayOneShot(F.Som);
             yield return new WaitForSeconds(Velocidade);
 
-            if (Input.GetKeyDown(KeyCode.Q)){
+            if (Input.GetKeyDown(KeyCode.Return)){
                 TextoUI.text = Texto;
                 break;
             }

@@ -612,6 +612,7 @@ MonoBehaviour:
   Mortes: 0
   A: 0
   Chaves: 0
+  atalho: 0
 --- !u!4 &477971090
 Transform:
   m_ObjectHideFlags: 0

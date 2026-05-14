@@ -19,7 +19,7 @@ public class Perguntar_Nome : MonoBehaviour{
     }
 
     private void Update(){
-        if (Perto && !EmSequencia && Input.GetKeyDown(KeyCode.Q) && !Caixa_Dialogo.Ativa){
+        if (Perto && !EmSequencia && Input.GetKeyDown(KeyCode.Return) && !Caixa_Dialogo.Ativa){
             Interagir();
         }
     }
