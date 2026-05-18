@@ -9,7 +9,7 @@ public class Planta : MonoBehaviour{
             Jogador J = collider.GetComponent<Jogador>();
 
             if(J != null){
-                //Animacao.Play("Planta_Mordida");
+                //Animacao.Play("Planta_Ataque");
                 J.TomarDano(Dano, transform.position);
             }
         }

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Inimigo : MonoBehaviour{
@@ -28,7 +29,9 @@ public class Inimigo : MonoBehaviour{
         foreach (Collider2D C in Colliders){
             C.enabled = false;
         }
-
+    }
+    protected IEnumerator Desativar(){
+        yield return new WaitForSeconds(2f);
         this.enabled = false;
     }
 }

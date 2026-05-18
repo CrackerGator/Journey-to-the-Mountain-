@@ -3,24 +3,35 @@ using Unity.Mathematics;
 using UnityEngine.Video;
 using Unity.VisualScripting;
 
-public class Cobra : MonoBehaviour{
+public class Cobra : Inimigo{
     
+    private SpriteRenderer Sprite1;
+    private Animator Animacao;
     public Transform A;
     public Transform B;
     private Transform Alvo;
     public float Velocidade;
 
     void Start(){
+        Sprite1 = GetComponent<SpriteRenderer>();
+        Animacao = GetComponent<Animator>();
         Alvo = A;
+        Animacao.Play("Cobra_Andando");
     }
     void FixedUpdate(){
-        movimentar();
-        if(GetComponent<Inimigo>().Derrotado){
-            this.enabled = false;
+        if(Derrotado){
+            return;
         }
+        Movimentar();
     }
 
-    public void movimentar(){
+    public void Movimentar(){
+        if(Alvo.position.x > transform.position.x){
+            Sprite1.flipX = true;
+        }
+        else
+        Sprite1.flipX = false;
+
         transform.position = Vector2.MoveTowards(transform.position, Alvo.position, Velocidade * Time.deltaTime);
         if(Vector2.Distance(transform.position, Alvo.position) < Velocidade * Time.deltaTime){
             if(Alvo == A)
@@ -29,4 +40,10 @@ public class Cobra : MonoBehaviour{
             Alvo = A;
         }
     }
+
+    protected override void Morrer(){
+        base.Morrer();
+        Animacao.Play("Cobra_Derrotada");
+        StartCoroutine(Desativar());
+    }  
 }

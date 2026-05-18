@@ -26,7 +26,7 @@ public class Jogador : MonoBehaviour{
     public float RaioVerificador;
     public LayerMask Ground;
     public bool Atacando = false;
-    private float TempoAtaque = 0.2f;
+    private float TempoAtaque = 1f;
     
     [Header("Ataque")]
     public GameObject AtaqueDireita;
@@ -47,9 +47,11 @@ public class Jogador : MonoBehaviour{
         foreach (Transform Objetos in transform){
             Objetos.gameObject.SetActive(false);
         }
+
+        Animacao.Play("Jogador_Idle");
     }
     void Update(){   
-        X = Input.GetAxis("Horizontal");
+        X = Input.GetAxisRaw("Horizontal");
         
         Animar();
         Pular();
@@ -66,7 +68,7 @@ public class Jogador : MonoBehaviour{
     }
     
     public void Movimentar(){
-        if(Knockbacked == true){
+        if(Atacando == true || Knockbacked == true){
             return;
         }
         Body.linearVelocity = new Vector2(X * Velocidade, Body.linearVelocity.y);
@@ -98,28 +100,29 @@ public class Jogador : MonoBehaviour{
 
         if(X > 0){
             AtaqueDireita.SetActive(true);
-            //Animacao.Play("Jogador_Ataque");
+            Animacao.Play("Jogador_Ataque");
             yield return new WaitForSeconds(TempoAtaque);
             AtaqueDireita.SetActive(false);
         }
         else if(X < 0){
             AtaqueEsquerda.SetActive(true);
-            //Animacao.Play("Jogador_Ataque");
+            Animacao.Play("Jogador_Ataque");
             yield return new WaitForSeconds(TempoAtaque);
             AtaqueEsquerda.SetActive(false);
         }
         else{
             if(Sprite1.flipX == false){
                 AtaqueDireita.SetActive(true);
-                //Animacao.Play("Jogador_Ataque");
+                Animacao.Play("Jogador_Ataque");
                 yield return new WaitForSeconds(TempoAtaque);
                 AtaqueDireita.SetActive(false);
             }
-            else
-            AtaqueEsquerda.SetActive(true);
-            //Animacao.Play("Jogador_Ataque");
-            yield return new WaitForSeconds(TempoAtaque);
-            AtaqueEsquerda.SetActive(false);
+            else{
+                AtaqueEsquerda.SetActive(true);
+                Animacao.Play("Jogador_Ataque");
+                yield return new WaitForSeconds(TempoAtaque);
+                AtaqueEsquerda.SetActive(false);
+            }
         }
 
         Atacando = false;
@@ -142,6 +145,7 @@ public class Jogador : MonoBehaviour{
         Knockbacked = true;
         Body.linearVelocity = Vector2.zero;
         Body.linearVelocity = Direcao * ForcaKnock;
+        Animacao.Play("Jogador_Dano");
         yield return new WaitForSeconds(TempoKnock);
         Body.linearVelocity = new Vector2(0f, Body.linearVelocity.y);
         Knockbacked = false; 
@@ -149,23 +153,26 @@ public class Jogador : MonoBehaviour{
 
     private IEnumerator InvencivelTempo(){
         Invencivel = true;
-        Animacao.Play("player_jump");
         yield return new WaitForSeconds(TempoInvencivel);
         Invencivel = false;
     }
 
     public void Animar(){
+        if(Atacando == true || Knockbacked == true){
+            return;
+        }
+
         if (X == 0 && NoChao == true){
-            Animacao.Play("player_idle");
+            Animacao.Play("Jogador_Idle");
         }
         else if (X != 0 && NoChao == true){
-            Animacao.Play("player_walk");
+            Animacao.Play("Jogador_Andando");
         }
         else if (NoChao == false){
-            Animacao.Play("player_jump");
+            Animacao.Play("Jogador_Pulo");
         }
 
         if (X > 0){Sprite1.flipX = false;}
         else if (X < 0){Sprite1.flipX = true;}
-    }   
+    } 
 }
