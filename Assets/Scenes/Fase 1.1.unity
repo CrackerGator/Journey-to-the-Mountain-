@@ -2033,6 +2033,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb808cf24a260ea46b4afb166b55d485, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::cobra
+  Vida: 0
+  Derrotado: 0
   A: {fileID: 1870728483}
   B: {fileID: 2090127354}
   Velocidade: 4
@@ -5575,7 +5577,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1, y: 1.4375}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5632,8 +5634,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.4943396, g: 0.23411173, b: 0.23411173, a: 1}
+  m_Sprite: {fileID: 9011202212817926272, guid: e36ca53207f38354ba732ee7db00ad56, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5670,7 +5672,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7080608b51cf2714f85c1d394bddcb20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Morcego
-  Body: {fileID: 630582856}
+  Vida: 0
+  Derrotado: 0
   Jogador: {fileID: 199160545}
   Detector: 10
   Ida: 3
@@ -64825,7 +64828,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7080608b51cf2714f85c1d394bddcb20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Morcego
-  Body: {fileID: 1004616420}
+  Vida: 0
+  Derrotado: 0
   Jogador: {fileID: 199160545}
   Detector: 10
   Ida: 3
@@ -64912,7 +64916,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1, y: 1.4375}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -64969,8 +64973,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.4943396, g: 0.23411173, b: 0.23411173, a: 1}
+  m_Sprite: {fileID: 9011202212817926272, guid: e36ca53207f38354ba732ee7db00ad56, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -69204,7 +69208,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7080608b51cf2714f85c1d394bddcb20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Morcego
-  Body: {fileID: 1473568006}
+  Vida: 0
+  Derrotado: 0
   Jogador: {fileID: 199160545}
   Detector: 10
   Ida: 3
@@ -69291,7 +69296,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1, y: 1.4375}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -69348,8 +69353,8 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.4943396, g: 0.23411173, b: 0.23411173, a: 1}
+  m_Sprite: {fileID: 9011202212817926272, guid: e36ca53207f38354ba732ee7db00ad56, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -107378,6 +107383,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb808cf24a260ea46b4afb166b55d485, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::cobra
+  Vida: 0
+  Derrotado: 0
   A: {fileID: 1844678965}
   B: {fileID: 927103779}
   Velocidade: 4
@@ -110068,6 +110075,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb808cf24a260ea46b4afb166b55d485, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::cobra
+  Vida: 0
+  Derrotado: 0
   A: {fileID: 553726463}
   B: {fileID: 1096436627}
   Velocidade: 4

@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Cobra_Andando
+  m_Name: Preparar_Mordida
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,15 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -2787289146744148950, guid: 57fd16bc08ffbfa44822ec6ba65a463b, type: 3}
-    - time: 0.33333334
-      value: {fileID: 6790405608738418358, guid: 57fd16bc08ffbfa44822ec6ba65a463b, type: 3}
+      value: {fileID: -5201634664622424818, guid: 5256aa6a481fbc648acf45b7f3589dab, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 3
+  m_SampleRate: 1
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -46,14 +44,13 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -2787289146744148950, guid: 57fd16bc08ffbfa44822ec6ba65a463b, type: 3}
-    - {fileID: 6790405608738418358, guid: 57fd16bc08ffbfa44822ec6ba65a463b, type: 3}
+    - {fileID: -5201634664622424818, guid: 5256aa6a481fbc648acf45b7f3589dab, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.6666667
+    m_StopTime: 1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

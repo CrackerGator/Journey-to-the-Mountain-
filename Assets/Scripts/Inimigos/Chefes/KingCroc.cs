@@ -73,7 +73,7 @@ public class KingCroc : Inimigo{
         Atacando = true;
         yield return StartCoroutine(Preparar("Mordida"));
 
-        Animacao.Play("Ataque_Mordida");
+        Animacao.Play("King_Mordida");
 
         if(Sprite1.flipX == true){
             Ataque_Direita.SetActive(true);
@@ -119,10 +119,10 @@ public class KingCroc : Inimigo{
 
     IEnumerator Preparar(string NomeAtaque){
         if (NomeAtaque == "Mordida"){
-            Animacao.Play("Preparando_Mordida");
+            Animacao.Play("Preparar_Mordida");
         }
         else if (NomeAtaque == "Dash"){
-            Animacao.Play("Preparando_Mordida");
+            Animacao.Play("Preparar_Mordida");
         }
         yield return new WaitForSeconds(Preparando);
     }
