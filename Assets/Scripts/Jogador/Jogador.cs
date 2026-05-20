@@ -92,10 +92,10 @@ public class Jogador : MonoBehaviour{
 
     public void Atacar(){
         if (Input.GetKeyDown(KeyCode.X)){
-            StartCoroutine(ativar());
+            StartCoroutine(Ativar());
         }   
     }
-    private System.Collections.IEnumerator ativar(){
+    private System.Collections.IEnumerator Ativar(){
         Atacando = true;
 
         if(X > 0){
