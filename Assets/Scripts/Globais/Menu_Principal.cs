@@ -3,8 +3,13 @@ using UnityEngine.SceneManagement;
 
 public class Menu_Principal : MonoBehaviour{
     public void NovoJogo(){
+        Geral.Instancia.ResetarDados();
         Fade.Instancia.TrocarCena("Cutscene 1.1");
-        Geral.Instancia.FaseAtual = "Fase 1.1";
     } 
+    public void CarregarJogo(){
+        if(SaveManager.Instancia.Carregar()){
+            Fade.Instancia.TrocarCena(Geral.Instancia.FaseAtual);
+        }
+    }
 
 }

@@ -24,16 +24,16 @@ public class SaveManager : MonoBehaviour{
         Debug.Log("Jogo Salvo");
     }
 
-    public void Carregar(){
+    public bool Carregar(){
         if (File.Exists(Caminho)){
             string json = File.ReadAllText(Caminho);
 
             JsonUtility.FromJsonOverwrite(json, Geral.Instancia);
 
-            Debug.Log("Jogo Carregado");
+            return true;
         }
         else
-            Debug.Log("Nenhum save encontrado");
+        return false;
     }
 
     //Eu só preciso disso pra testar as fases sem reiniciar o jogo

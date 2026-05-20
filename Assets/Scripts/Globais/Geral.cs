@@ -10,11 +10,11 @@ public class Geral : MonoBehaviour{
     public static Geral Instancia;
 
     public string NomeJogador = "??????";
-    public string FaseAtual;
+    public string FaseAtual = "Fase 1.1";
     public int Mortes = 0;
     public TipoAnimal A = TipoAnimal.Nenhum;
     public int Chaves = 0;
-    public bool atalho;
+    public bool Atalho;
 
     private void Awake(){
         if (Instancia == null){
@@ -24,6 +24,15 @@ public class Geral : MonoBehaviour{
         else
         Destroy(gameObject);
     }
+
+    public void ResetarDados(){
+        NomeJogador = "??????";
+        FaseAtual = "Fase 1.1";
+        Mortes = 0;
+        A = TipoAnimal.Nenhum;
+        Chaves = 0;
+        Atalho = false;
+}
 
     //Eu só preciso disso pra testar as fases sem reiniciar o jogo
     //O GameObject Geral se cria automaticamente
