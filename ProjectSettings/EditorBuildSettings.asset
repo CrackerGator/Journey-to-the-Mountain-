@@ -21,10 +21,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Fase 1.3.unity
     guid: c38ff5014201c8d4893d91d463e02c35
   - enabled: 1
-    path: Assets/Scenes/Creditos.unity
-    guid: b645152b2aa5a3b46801f0f7f36b04c8
-  - enabled: 1
     path: Assets/Scenes/The Mountain.unity
     guid: 9cd8d37cec935b44f996ad9a0e89a916
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: d4b5381a9ef9d894c9dac9c3e4bf732f
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: b645152b2aa5a3b46801f0f7f36b04c8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

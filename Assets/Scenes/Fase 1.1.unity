@@ -1959,7 +1959,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.5, y: 4}
+  m_Size: {x: 3, y: 4}
   m_EdgeRadius: 0
 --- !u!1 &196275252
 GameObject:
@@ -1973,7 +1973,6 @@ GameObject:
   - component: {fileID: 196275259}
   - component: {fileID: 196275258}
   - component: {fileID: 196275257}
-  - component: {fileID: 196275256}
   - component: {fileID: 196275255}
   - component: {fileID: 196275254}
   m_Layer: 8
@@ -2038,20 +2037,6 @@ MonoBehaviour:
   A: {fileID: 1870728483}
   B: {fileID: 2090127354}
   Velocidade: 3
---- !u!114 &196275256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196275252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 1
-  Derrotado: 0
 --- !u!50 &196275257
 Rigidbody2D:
   serializedVersion: 5
@@ -2334,6 +2319,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   Atacando: 0
+  TempoAtaque: 1
   AtaqueDireita: {fileID: 1354933163}
   AtaqueEsquerda: {fileID: 190030467}
   Knockbacked: 0
@@ -5294,7 +5280,6 @@ GameObject:
   - component: {fileID: 582206349}
   - component: {fileID: 582206348}
   - component: {fileID: 582206347}
-  - component: {fileID: 582206346}
   - component: {fileID: 582206345}
   - component: {fileID: 582206344}
   m_Layer: 8
@@ -5363,20 +5348,6 @@ MonoBehaviour:
   Teto: {x: 0, y: 0}
   Caverna: 0
   DistanciaJogador: 0
---- !u!114 &582206346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 582206342}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 2
-  Derrotado: 0
 --- !u!50 &582206347
 Rigidbody2D:
   serializedVersion: 5
@@ -5680,7 +5651,6 @@ GameObject:
   - component: {fileID: 630582858}
   - component: {fileID: 630582857}
   - component: {fileID: 630582856}
-  - component: {fileID: 630582855}
   - component: {fileID: 630582860}
   - component: {fileID: 630582861}
   m_Layer: 8
@@ -5690,20 +5660,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &630582855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 630582854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 2
-  Derrotado: 0
 --- !u!50 &630582856
 Rigidbody2D:
   serializedVersion: 5
@@ -5907,7 +5863,6 @@ GameObject:
   - component: {fileID: 686933212}
   - component: {fileID: 686933211}
   - component: {fileID: 686933210}
-  - component: {fileID: 686933209}
   - component: {fileID: 686933208}
   - component: {fileID: 686933207}
   m_Layer: 8
@@ -5976,20 +5931,6 @@ MonoBehaviour:
   Teto: {x: 0, y: 0}
   Caverna: 0
   DistanciaJogador: 0
---- !u!114 &686933209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 686933205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 2
-  Derrotado: 0
 --- !u!50 &686933210
 Rigidbody2D:
   serializedVersion: 5
@@ -62796,7 +62737,6 @@ GameObject:
   - component: {fileID: 1004616423}
   - component: {fileID: 1004616422}
   - component: {fileID: 1004616420}
-  - component: {fileID: 1004616421}
   - component: {fileID: 1004616419}
   - component: {fileID: 1004616425}
   m_Layer: 8
@@ -62854,20 +62794,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1004616421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004616418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 2
-  Derrotado: 0
 --- !u!61 &1004616422
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -65212,7 +65138,6 @@ GameObject:
   - component: {fileID: 1225048821}
   - component: {fileID: 1225048820}
   - component: {fileID: 1225048819}
-  - component: {fileID: 1225048818}
   - component: {fileID: 1225048817}
   - component: {fileID: 1225048816}
   m_Layer: 8
@@ -65281,20 +65206,6 @@ MonoBehaviour:
   Teto: {x: 0, y: 0}
   Caverna: 0
   DistanciaJogador: 0
---- !u!114 &1225048818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1225048814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 2
-  Derrotado: 0
 --- !u!50 &1225048819
 Rigidbody2D:
   serializedVersion: 5
@@ -65836,7 +65747,6 @@ GameObject:
   - component: {fileID: 1298351939}
   - component: {fileID: 1298351938}
   - component: {fileID: 1298351937}
-  - component: {fileID: 1298351936}
   - component: {fileID: 1298351935}
   - component: {fileID: 1298351934}
   m_Layer: 8
@@ -65905,20 +65815,6 @@ MonoBehaviour:
   Teto: {x: 0, y: 0}
   Caverna: 0
   DistanciaJogador: 0
---- !u!114 &1298351936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1298351932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 2
-  Derrotado: 0
 --- !u!50 &1298351937
 Rigidbody2D:
   serializedVersion: 5
@@ -66864,7 +66760,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.5, y: 4}
+  m_Size: {x: 3, y: 4}
   m_EdgeRadius: 0
 --- !u!114 &1354933166
 MonoBehaviour:
@@ -66891,7 +66787,6 @@ GameObject:
   - component: {fileID: 1361692605}
   - component: {fileID: 1361692604}
   - component: {fileID: 1361692603}
-  - component: {fileID: 1361692602}
   - component: {fileID: 1361692601}
   - component: {fileID: 1361692600}
   m_Layer: 8
@@ -66960,20 +66855,6 @@ MonoBehaviour:
   Teto: {x: 0, y: 0}
   Caverna: 0
   DistanciaJogador: 0
---- !u!114 &1361692602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1361692598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 2
-  Derrotado: 0
 --- !u!50 &1361692603
 Rigidbody2D:
   serializedVersion: 5
@@ -67772,7 +67653,6 @@ GameObject:
   - component: {fileID: 1473568009}
   - component: {fileID: 1473568008}
   - component: {fileID: 1473568006}
-  - component: {fileID: 1473568007}
   - component: {fileID: 1473568005}
   - component: {fileID: 1473568011}
   m_Layer: 8
@@ -67830,20 +67710,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1473568007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1473568004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 2
-  Derrotado: 0
 --- !u!61 &1473568008
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -108348,7 +108214,6 @@ GameObject:
   - component: {fileID: 1712433888}
   - component: {fileID: 1712433887}
   - component: {fileID: 1712433886}
-  - component: {fileID: 1712433885}
   - component: {fileID: 1712433884}
   - component: {fileID: 1712433883}
   m_Layer: 8
@@ -108417,20 +108282,6 @@ MonoBehaviour:
   Teto: {x: 0, y: 0}
   Caverna: 0
   DistanciaJogador: 0
---- !u!114 &1712433885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712433881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 2
-  Derrotado: 0
 --- !u!50 &1712433886
 Rigidbody2D:
   serializedVersion: 5
@@ -108667,7 +108518,6 @@ GameObject:
   - component: {fileID: 1779171177}
   - component: {fileID: 1779171176}
   - component: {fileID: 1779171175}
-  - component: {fileID: 1779171174}
   - component: {fileID: 1779171173}
   - component: {fileID: 1779171172}
   m_Layer: 8
@@ -108732,20 +108582,6 @@ MonoBehaviour:
   A: {fileID: 1419828600}
   B: {fileID: 968304003}
   Velocidade: 3
---- !u!114 &1779171174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1779171170}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 1
-  Derrotado: 0
 --- !u!50 &1779171175
 Rigidbody2D:
   serializedVersion: 5
@@ -109221,7 +109057,6 @@ GameObject:
   - component: {fileID: 1794160720}
   - component: {fileID: 1794160719}
   - component: {fileID: 1794160718}
-  - component: {fileID: 1794160722}
   - component: {fileID: 1794160717}
   - component: {fileID: 1794160723}
   m_Layer: 8
@@ -109396,20 +109231,6 @@ Transform:
   - {fileID: 434770429}
   m_Father: {fileID: 1392248457}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1794160722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1794160710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 1
-  Derrotado: 0
 --- !u!95 &1794160723
 Animator:
   serializedVersion: 7
@@ -109602,7 +109423,6 @@ GameObject:
   - component: {fileID: 1828711516}
   - component: {fileID: 1828711515}
   - component: {fileID: 1828711514}
-  - component: {fileID: 1828711513}
   - component: {fileID: 1828711512}
   - component: {fileID: 1828711511}
   m_Layer: 8
@@ -109671,20 +109491,6 @@ MonoBehaviour:
   Teto: {x: 0, y: 0}
   Caverna: 0
   DistanciaJogador: 0
---- !u!114 &1828711513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1828711509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 2
-  Derrotado: 0
 --- !u!50 &1828711514
 Rigidbody2D:
   serializedVersion: 5
@@ -112109,7 +111915,6 @@ GameObject:
   - component: {fileID: 2095465912}
   - component: {fileID: 2095465911}
   - component: {fileID: 2095465910}
-  - component: {fileID: 2095465909}
   - component: {fileID: 2095465908}
   - component: {fileID: 2095465907}
   m_Layer: 8
@@ -112174,20 +111979,6 @@ MonoBehaviour:
   A: {fileID: 553726463}
   B: {fileID: 1096436627}
   Velocidade: 3
---- !u!114 &2095465909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095465905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 1
-  Derrotado: 0
 --- !u!50 &2095465910
 Rigidbody2D:
   serializedVersion: 5
@@ -112332,7 +112123,6 @@ GameObject:
   - component: {fileID: 2099204403}
   - component: {fileID: 2099204402}
   - component: {fileID: 2099204401}
-  - component: {fileID: 2099204400}
   - component: {fileID: 2099204399}
   - component: {fileID: 2099204398}
   m_Layer: 8
@@ -112401,20 +112191,6 @@ MonoBehaviour:
   Teto: {x: 0, y: 0}
   Caverna: 0
   DistanciaJogador: 0
---- !u!114 &2099204400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2099204396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 2
-  Derrotado: 0
 --- !u!50 &2099204401
 Rigidbody2D:
   serializedVersion: 5

@@ -19,7 +19,7 @@ public class Cobra : Inimigo{
         Animacao.Play("Cobra_Andando");
     }
     void FixedUpdate(){
-        if(Derrotado){
+        if(Derrotado == true){
             return;
         }
         Movimentar();
@@ -42,8 +42,8 @@ public class Cobra : Inimigo{
     }
 
     protected override void Morrer(){
-        base.Morrer();
         Animacao.Play("Cobra_Derrotada");
+        base.Morrer();
         StartCoroutine(Desativar());
     }  
 }

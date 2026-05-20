@@ -26,7 +26,7 @@ public class Jogador : MonoBehaviour{
     public float RaioVerificador;
     public LayerMask Ground;
     public bool Atacando = false;
-    private float TempoAtaque = 1f;
+    public float TempoAtaque;
     
     [Header("Ataque")]
     public GameObject AtaqueDireita;

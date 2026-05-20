@@ -14,20 +14,20 @@ public class KingCroc : Inimigo{
     public GameObject Ataque_Esquerda;
     public GameObject Ataque_Direita;
     public GameObject ColliderDash;
-    public float Range = 2f;
+    public float Range = 3f;
 
     [Header("Cooldown")]
     public float CooldownAtaque = 2f;
     private float CooldownTempo;
 
     [Header("Dash")]
-    public float DashVelocidade = 10f;
-    public float DashDuracao = 1f;
+    public float DashVelocidade = 8f;
+    public float DashDuracao = 1.5f;
     public float DashChance = 0.2f;
 
     [Header("Dash")]
     public bool Atacando;
-    public float Preparando = 0.6f;
+    public float Preparando = 0.8f;
 
     void Start(){
         Sprite1 = GetComponent<SpriteRenderer>();
@@ -122,7 +122,7 @@ public class KingCroc : Inimigo{
             Animacao.Play("Preparar_Mordida");
         }
         else if (NomeAtaque == "Dash"){
-            Animacao.Play("Preparar_Mordida");
+            Animacao.Play("Preparar_Dash");
         }
         yield return new WaitForSeconds(Preparando);
     }

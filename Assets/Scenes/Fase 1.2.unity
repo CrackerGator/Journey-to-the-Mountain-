@@ -613,7 +613,6 @@ GameObject:
   - component: {fileID: 91176072}
   - component: {fileID: 91176071}
   - component: {fileID: 91176070}
-  - component: {fileID: 91176069}
   - component: {fileID: 91176068}
   m_Layer: 8
   m_Name: Cobra1
@@ -655,20 +654,6 @@ MonoBehaviour:
   A: {fileID: 1858523153}
   B: {fileID: 1838912270}
   Velocidade: 4
---- !u!114 &91176069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 91176066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 1
-  Derrotado: 0
 --- !u!50 &91176070
 Rigidbody2D:
   serializedVersion: 5
@@ -35286,7 +35271,6 @@ GameObject:
   - component: {fileID: 450688315}
   - component: {fileID: 450688314}
   - component: {fileID: 450688313}
-  - component: {fileID: 450688312}
   - component: {fileID: 450688311}
   m_Layer: 8
   m_Name: Cobra2
@@ -35328,20 +35312,6 @@ MonoBehaviour:
   A: {fileID: 1016689959}
   B: {fileID: 97580340}
   Velocidade: 4
---- !u!114 &450688312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 450688309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 1
-  Derrotado: 0
 --- !u!50 &450688313
 Rigidbody2D:
   serializedVersion: 5
@@ -36781,6 +36751,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   Atacando: 0
+  TempoAtaque: 1
   AtaqueDireita: {fileID: 191613947}
   AtaqueEsquerda: {fileID: 1855155431}
   Knockbacked: 0
@@ -65917,7 +65888,6 @@ GameObject:
   - component: {fileID: 1429156845}
   - component: {fileID: 1429156844}
   - component: {fileID: 1429156842}
-  - component: {fileID: 1429156843}
   - component: {fileID: 1429156841}
   m_Layer: 8
   m_Name: Morcego1
@@ -65974,20 +65944,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1429156843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1429156840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 2
-  Derrotado: 0
 --- !u!61 &1429156844
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -66216,7 +66172,6 @@ GameObject:
   - component: {fileID: 1567701620}
   - component: {fileID: 1567701619}
   - component: {fileID: 1567701617}
-  - component: {fileID: 1567701618}
   - component: {fileID: 1567701616}
   m_Layer: 8
   m_Name: Morcego2
@@ -66273,20 +66228,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1567701618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1567701615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 2
-  Derrotado: 0
 --- !u!61 &1567701619
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -67402,7 +67343,6 @@ GameObject:
   - component: {fileID: 1985104337}
   - component: {fileID: 1985104336}
   - component: {fileID: 1985104335}
-  - component: {fileID: 1985104334}
   - component: {fileID: 1985104333}
   m_Layer: 8
   m_Name: Cobra3
@@ -67444,20 +67384,6 @@ MonoBehaviour:
   A: {fileID: 1016689959}
   B: {fileID: 97580340}
   Velocidade: 4
---- !u!114 &1985104334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985104331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30e0ec8c510a08546a8a17745ffee02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::inimigo
-  Vida: 1
-  Derrotado: 0
 --- !u!50 &1985104335
 Rigidbody2D:
   serializedVersion: 5
