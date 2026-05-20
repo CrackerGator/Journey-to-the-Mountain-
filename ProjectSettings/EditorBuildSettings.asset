@@ -23,5 +23,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Creditos.unity
     guid: b645152b2aa5a3b46801f0f7f36b04c8
+  - enabled: 1
+    path: Assets/Scenes/The Mountain.unity
+    guid: 9cd8d37cec935b44f996ad9a0e89a916
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
