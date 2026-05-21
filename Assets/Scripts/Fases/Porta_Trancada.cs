@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Porta_Trancada : MonoBehaviour{
+public class Porta_Trancada : Interagir{
     public int ChavesNecessarias;
     public string ProximaCena;
     public string ProximaFase;
@@ -9,9 +9,8 @@ public class Porta_Trancada : MonoBehaviour{
     public Sprite SpriteAberta;
 
     private bool Aberta = false;
-    private bool Perto = false;
 
-    void Update(){
+    protected override void Update(){
         if (!Aberta && Perto && Geral.Instancia.Chaves >= ChavesNecessarias && Input.GetKeyDown(KeyCode.Return)){
             AbrirPorta();
         }
@@ -27,16 +26,5 @@ public class Porta_Trancada : MonoBehaviour{
         Sprite1.sprite = SpriteAberta;
 
         Debug.Log("Porta aberta!");
-    }
-
-    private void OnTriggerEnter2D(Collider2D collider){
-        if (collider.CompareTag("Jogador")){
-            Perto = true;
-        }
-    }
-    private void OnTriggerExit2D(Collider2D collider){
-        if (collider.CompareTag("Jogador")){
-            Perto = false;
-        }
     }
 }

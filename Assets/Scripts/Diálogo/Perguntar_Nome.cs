@@ -8,6 +8,7 @@ public class Perguntar_Nome : MonoBehaviour{
     public GameObject InputNome;
     public GameObject Dialogo3;
     public GameObject UltimoDialogo;
+    public GameObject Interacao;
     public bool Perto;
     public bool EmSequencia;
     public int i = 0;
@@ -63,9 +64,15 @@ public class Perguntar_Nome : MonoBehaviour{
     }
 
     private void OnTriggerEnter2D(Collider2D collider){
-        if (collider.CompareTag("Jogador")){Perto = true;}
+        if (collider.CompareTag("Jogador")){
+            Perto = true;
+            Interacao.SetActive(true);
+        }
     }
     private void OnTriggerExit2D(Collider2D collider){
-        if (collider.CompareTag("Jogador")){Perto = false;}
+        if (collider.CompareTag("Jogador")){
+            Perto = false;
+            Interacao.SetActive(false);
+        }
     }
 }

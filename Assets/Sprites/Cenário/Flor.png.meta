@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8f005fc06b49371429fa2a08804f14ca
+guid: baca7636147914c489fdf437b9006fb3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7126109635181220202
-    second: Interacao_0
+      213: -2542995987112192354
+    second: Flor_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Interacao_0
+      name: Flor_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1
-        width: 39
-        height: 28
+        x: 0
+        y: 0
+        width: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69ee884ea09fa1d90800000000000000
-      internalID: -7126109635181220202
+      spriteID: e961fe28f9675bcd0800000000000000
+      internalID: -2542995987112192354
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Interacao_0: -7126109635181220202
+      Flor_0: -2542995987112192354
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

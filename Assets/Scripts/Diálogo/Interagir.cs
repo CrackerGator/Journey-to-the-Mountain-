@@ -4,19 +4,26 @@ using UnityEngine;
 public class Interagir : MonoBehaviour{
     
     public GameObject Interacao;
+    public GameObject Icone;
     public bool Perto;
     public KeyCode Input1;
 
-    void Update(){
+    protected virtual void Update(){
         if (Perto && Input.GetKeyDown(Input1) && !Caixa_Dialogo.Ativa){
             Interacao.SetActive(true);
         }
     }
     
-    private void OnTriggerEnter2D(Collider2D collider){
-        if (collider.CompareTag("Jogador")){Perto = true;}
+    protected virtual void OnTriggerEnter2D(Collider2D collider){
+        if (collider.CompareTag("Jogador")){
+            Perto = true;
+            Icone.SetActive(true);
+        }
     }
-    private void OnTriggerExit2D(Collider2D collider){
-        if (collider.CompareTag("Jogador")){Perto = false;}
+    protected virtual void OnTriggerExit2D(Collider2D collider){
+        if (collider.CompareTag("Jogador")){
+            Perto = false;
+            Icone.SetActive(false);
+        }
     }
 }
