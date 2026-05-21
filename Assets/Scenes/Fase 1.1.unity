@@ -106968,6 +106968,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1551226005}
   - component: {fileID: 1551226007}
+  - component: {fileID: 1551226010}
   - component: {fileID: 1551226006}
   - component: {fileID: 1551226008}
   - component: {fileID: 1551226009}
@@ -106997,8 +106998,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -376.98453}
-  m_SizeDelta: {x: 1817.0173, y: 238.7489}
+  m_AnchoredPosition: {x: 7, y: -364.98453}
+  m_SizeDelta: {x: 1817.0173, y: 262.7489}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1551226006
 MonoBehaviour:
@@ -107164,6 +107165,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1551226010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551226004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 7, y: 7}
+  m_UseGraphicAlpha: 1
 --- !u!114 &1554209365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109390,7 +109406,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: f380a9f079ab2564291ac93703eb9eef, type: 3}
+    m_Font: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
@@ -111851,7 +111867,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0

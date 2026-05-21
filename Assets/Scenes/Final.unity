@@ -238,7 +238,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &451592780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -752,7 +752,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1413542401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -899,6 +899,7 @@ GameObject:
   - component: {fileID: 1740370094}
   - component: {fileID: 1740370093}
   - component: {fileID: 1740370098}
+  - component: {fileID: 1740370099}
   - component: {fileID: 1740370097}
   m_Layer: 5
   m_Name: Canvas
@@ -1028,12 +1029,32 @@ MonoBehaviour:
   ProximaFase: Creditos
   canvasGroup: {fileID: 1740370097}
   VelocidadeFade: 5
+--- !u!114 &1740370099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740370092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ce5192f09451d4cb0e6fe7a3b10e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Chaos
+  Imagem: {fileID: 0}
+  Quadros: []
+  QuadrosAnimados: []
+  TempoAnimacao: 2
+  ProximaFase: Creditos
+  canvasGroup: {fileID: 1740370097}
+  VelocidadeFade: 5
+  Dialogo: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 555383565}
-  - {fileID: 1740370096}
   - {fileID: 522815869}
+  - {fileID: 1740370096}
   - {fileID: 1413542402}
   - {fileID: 451592781}

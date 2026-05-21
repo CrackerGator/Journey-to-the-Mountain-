@@ -20,20 +20,20 @@ public class Cutscenes : MonoBehaviour{
     public CanvasGroup canvasGroup;
     public float VelocidadeFade;
 
-    private int i = 0;
-    private bool Fading = false;
+    protected int i = 0;
+    protected bool Fading = false;
 
     void Start(){
         MostrarQuadro();
     }
 
-    void Update(){
+    protected void Update(){
         if (Input.GetKeyDown(KeyCode.Return) && !Fading){
             StartCoroutine(ProximoQuadro());
         }
     }
 
-    void MostrarQuadro(){
+    protected void MostrarQuadro(){
         Animacao A = BuscarAnimacao(i);
         if(A != null){
             StartCoroutine(RodarAnimacao(A));
@@ -42,13 +42,15 @@ public class Cutscenes : MonoBehaviour{
         Imagem.sprite = Quadros[i];
     }
     Animacao BuscarAnimacao(int i){
+        if(QuadrosAnimados == null){return null;}
+
         foreach(var A in QuadrosAnimados){
             if(A.Inicio == i){return A;}
         }
         return null;
     }
 
-    IEnumerator ProximoQuadro(){
+    protected virtual IEnumerator ProximoQuadro(){
         Fading = true;
         yield return StartCoroutine(FadeOut());
 
@@ -74,14 +76,14 @@ public class Cutscenes : MonoBehaviour{
         Fading = false;
     }
 
-    IEnumerator FadeIn(){
+    protected IEnumerator FadeIn(){
         while(canvasGroup.alpha < 1){
             canvasGroup.alpha += Time.deltaTime * VelocidadeFade;
             yield return null;
         }
         canvasGroup.alpha = 1;
     }
-    IEnumerator FadeOut(){
+    protected IEnumerator FadeOut(){
         while (canvasGroup.alpha > 0){
             canvasGroup.alpha -= Time.deltaTime * VelocidadeFade;
             yield return null;

@@ -32,7 +32,9 @@ public class Caixa_Dialogo : MonoBehaviour{
 
     public void Awake(){
         Audio = GetComponent<AudioSource>();
-        J = GameObject.FindWithTag("Jogador").GetComponent<Jogador>();
+        
+        GameObject G = GameObject.FindWithTag("Jogador");
+        if (G != null){J = G.GetComponent<Jogador>();}
     }
 
     private void OnEnable(){
@@ -42,7 +44,7 @@ public class Caixa_Dialogo : MonoBehaviour{
 
     private IEnumerator Sequencia(){
         Ativa = true;
-        J.enabled = false;
+        if(J != null){J.enabled = false;}
 
         while(Indice < ListaFalas.Count){
             FalaDialogo F = ListaFalas[Indice];
@@ -65,7 +67,7 @@ public class Caixa_Dialogo : MonoBehaviour{
         }
         
         Ativa = false;
-        J.enabled = true;
+        if(J != null){J.enabled = true;}
         
         Sequencia_Caixas S = transform.parent.GetComponent<Sequencia_Caixas>();
 
