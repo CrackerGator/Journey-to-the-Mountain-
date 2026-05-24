@@ -9,7 +9,7 @@ public class Sequencia_Caixas : MonoBehaviour{
     }
 
     public List<CaixaDialogo> ListaCaixas;
-    private int Indice = 0;
+    public int Indice = 0;
 
     private void OnEnable(){
         Interagir();
@@ -17,11 +17,12 @@ public class Sequencia_Caixas : MonoBehaviour{
 
     public void Interagir(){
         if(Indice >= ListaCaixas.Count){return;}
-
         ListaCaixas[Indice].Caixa.SetActive(true);
-
-        if(Indice < ListaCaixas.Count - 1){Indice++;}
     }
     
-    public void Fechar(){gameObject.SetActive(false);}
+    public void Fechar(){
+        ListaCaixas[Indice].Caixa.SetActive(false);
+        if(Indice < ListaCaixas.Count - 1){Indice++;}
+        gameObject.SetActive(false);
+    }
 }

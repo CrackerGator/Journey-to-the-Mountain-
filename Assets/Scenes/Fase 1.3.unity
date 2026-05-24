@@ -1267,13 +1267,115 @@ MonoBehaviour:
   NomeUI: {fileID: 66756727}
   ImagemUI: {fileID: 130492534}
   ListaFalas:
-  - Texto: Opa, tudo bono?
-    NomePersonagem: Old Croc
+  - Texto: Ei! Aonde vai com tanta pressa?!
+    NomePersonagem: Rei Crocodilo
     ImagemPersonagem: {fileID: -8256725307290018937, guid: 618594e696c50264a83d387d0b72c5e1, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
-  - Texto: Tudu joia
+  - Texto: Eu preciso chegar no topo da montanha!
+    NomePersonagem: 
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 1
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: "O topo da montanha \xE9 pro\xEDbido!"
+    NomePersonagem: Rei Crocodilo
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 0
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: Volte para o seu laguinho, imediatamente!!
+    NomePersonagem: Rei Crocodilo
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 0
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: "E voc\xEA \xE9 o famoso \"quem\"?  "
+    NomePersonagem: 
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 1
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: 'Quem sou eu?! '
+    NomePersonagem: Rei Crocodilo
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 0
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: "Eu sou o absoluto soberano da floresta, o supremo predador do p\xE2ntano!"
+    NomePersonagem: Rei Crocodilo
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 0
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: "O maior r\xE9ptil a caminhar sob a terra!"
+    NomePersonagem: Rei Crocodilo
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 0
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: O grande Rei Crocodilo! Muahahahahahah!
+    NomePersonagem: Rei Crocodilo
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 0
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: "Ent\xE3o, a \"vossa majestade\" vai me deixar passar ou..."
+    NomePersonagem: 
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 1
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: "Voc\xEA zomba de mim, pequeno jacar\xE9?"
+    NomePersonagem: Rei Crocodilo
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 0
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: Eu sou um crocodilo!
+    NomePersonagem: 
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 1
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: "Voc\xEA?!"
+    NomePersonagem: Rei Crocodilo
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 0
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: HAHAHAHAHAHAHA!
+    NomePersonagem: Rei Crocodilo
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 0
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: Eu facilmente o confundiria com um caiman!
+    NomePersonagem: Rei Crocodilo
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 0
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: ...
+    NomePersonagem: 
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 1
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: Bem, hora de te mostrar porque EU sou rei!
+    NomePersonagem: Rei Crocodilo
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 0
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: ...
+    NomePersonagem: 
+    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    Jogador: 1
+    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
+  - Texto: Eu VOU chegar no topo da montanha!
     NomePersonagem: 
     ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
     Jogador: 1
@@ -1627,7 +1729,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &577400873
 Transform:
   m_ObjectHideFlags: 0
@@ -3661,7 +3763,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1433934019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13059,6 +13161,7 @@ SceneRoots:
   - {fileID: 1746221962}
   - {fileID: 249275734}
   - {fileID: 1907557876}
+  - {fileID: 41611709}
   - {fileID: 64492157}
   - {fileID: 943755274}
   - {fileID: 1000436239}
@@ -13066,4 +13169,3 @@ SceneRoots:
   - {fileID: 1433934020}
   - {fileID: 577400873}
   - {fileID: 1180708535}
-  - {fileID: 41611709}

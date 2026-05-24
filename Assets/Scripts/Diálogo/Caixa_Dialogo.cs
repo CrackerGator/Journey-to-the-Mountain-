@@ -72,7 +72,6 @@ public class Caixa_Dialogo : MonoBehaviour{
         Sequencia_Caixas S = transform.parent.GetComponent<Sequencia_Caixas>();
 
         if(S != null){S.Fechar();}
-
         gameObject.SetActive(false);
     }
 

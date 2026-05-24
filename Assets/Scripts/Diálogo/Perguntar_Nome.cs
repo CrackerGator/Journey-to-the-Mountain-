@@ -7,6 +7,7 @@ public class Perguntar_Nome : MonoBehaviour{
     public GameObject Dialogo2;
     public GameObject InputNome;
     public GameObject Dialogo3;
+    public GameObject Dialogo4;
     public GameObject UltimoDialogo;
     public GameObject Interacao;
     public bool Perto;
@@ -40,6 +41,10 @@ public class Perguntar_Nome : MonoBehaviour{
             break;
 
             case 2: 
+            Dialogo4.SetActive(true);
+            break;
+
+            case 3: 
                 UltimoDialogo.SetActive(true);
             break;       
         }
