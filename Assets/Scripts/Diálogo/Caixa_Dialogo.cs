@@ -81,6 +81,7 @@ public class Caixa_Dialogo : MonoBehaviour{
         TextoUI.text = "";
 
         Texto = Texto.Replace("{Nome}", Geral.Instancia.NomeJogador);
+        Texto = Texto.Replace("{Chaves}", (3 - Geral.Instancia.Chaves).ToString());
         
         foreach (char Letra in Texto){
             TextoUI.text += Letra;
