@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 public class Porta_Trancada : Interagir{
     public int ChavesNecessarias;
     public string ProximaCena;
@@ -15,7 +16,7 @@ public class Porta_Trancada : Interagir{
 
     private bool Aberta = false;
 
-    protected override void Update(){
+    public override void Interagir1(){
         if(Perto && Input.GetKeyDown(Input1) && !Caixa_Dialogo.Ativa){
             if(Aberta){
                 Geral.Instancia.FaseAtual = ProximaFase;
