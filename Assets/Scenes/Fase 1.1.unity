@@ -363,8 +363,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 138.47656, y: -7.0826}
-  m_SizeDelta: {x: 1407.5013, y: 189.98}
+  m_AnchoredPosition: {x: 150, y: -1}
+  m_SizeDelta: {x: 1320, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &11198647
 MonoBehaviour:
@@ -638,8 +638,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 138.47656, y: -7.0826}
-  m_SizeDelta: {x: 1407.5013, y: 189.98}
+  m_AnchoredPosition: {x: 150, y: -1}
+  m_SizeDelta: {x: 1320, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &19121506
 MonoBehaviour:
@@ -1302,8 +1302,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -340.74274}
-  m_SizeDelta: {x: 1776.0173, y: 283.2489}
+  m_AnchoredPosition: {x: 7, y: -330}
+  m_SizeDelta: {x: 1820, y: 340}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &95509520
 AudioSource:
@@ -1418,9 +1418,9 @@ MonoBehaviour:
   NomeUI: {fileID: 689113002}
   ImagemUI: {fileID: 1605357293}
   ListaFalas:
-  - Texto: Qual o seu nome lagartixa?
+  - Texto: Qual o seu nome, lagartixa?
     NomePersonagem: Velho Crocodilo
-    ImagemPersonagem: {fileID: -8256725307290018937, guid: 618594e696c50264a83d387d0b72c5e1, type: 3}
+    ImagemPersonagem: {fileID: 21300000, guid: 4ee1ee102a52f8642aac1ce841f3f8bd, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -1632,7 +1632,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &109111082
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1665,7 +1665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1673,7 +1673,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -2055,8 +2055,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 138.47656, y: -7.0826}
-  m_SizeDelta: {x: 1407.5013, y: 189.98}
+  m_AnchoredPosition: {x: 150, y: -1}
+  m_SizeDelta: {x: 1320, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &148316901
 MonoBehaviour:
@@ -2344,8 +2344,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746.04614, y: 31.11499}
-  m_SizeDelta: {x: 186.9814, y: 179.87}
+  m_AnchoredPosition: {x: -730, y: 38}
+  m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &168621662
 MonoBehaviour:
@@ -2367,9 +2367,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -2834,7 +2834,7 @@ Transform:
   m_GameObject: {fileID: 199160540}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 162.25, y: 23.9, z: 0}
+  m_LocalPosition: {x: 6, y: -1.3500004, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2969,8 +2969,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746.04614, y: 31.11499}
-  m_SizeDelta: {x: 186.9814, y: 179.87}
+  m_AnchoredPosition: {x: -730, y: 38}
+  m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &209239007
 MonoBehaviour:
@@ -2992,9 +2992,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -4116,6 +4116,7 @@ GameObject:
   - component: {fileID: 364531983}
   - component: {fileID: 364531982}
   - component: {fileID: 364531981}
+  - component: {fileID: 364531984}
   m_Layer: 5
   m_Name: "Bot\xE3o"
   m_TagString: Untagged
@@ -4140,8 +4141,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: -94}
-  m_SizeDelta: {x: 237.7207, y: 61.4583}
+  m_AnchoredPosition: {x: -5.25, y: -105.25}
+  m_SizeDelta: {x: 182.5, y: 62.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &364531981
 MonoBehaviour:
@@ -4212,7 +4213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9529412, g: 0.8235294, b: 0.13333334, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4220,7 +4221,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4237,6 +4238,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364531979}
   m_CullTransparentMesh: 1
+--- !u!114 &364531984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364531979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 5, y: 5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &367201995
 GameObject:
   m_ObjectHideFlags: 0
@@ -4989,8 +5005,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -340.74274}
-  m_SizeDelta: {x: 1776.0173, y: 283.2489}
+  m_AnchoredPosition: {x: 7, y: -330}
+  m_SizeDelta: {x: 1820, y: 340}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &455713398
 AudioSource:
@@ -5107,7 +5123,7 @@ MonoBehaviour:
   ListaFalas:
   - Texto: "Boa sorte, ent\xE3o!"
     NomePersonagem: Velho Crocodilo
-    ImagemPersonagem: {fileID: -8256725307290018937, guid: 618594e696c50264a83d387d0b72c5e1, type: 3}
+    ImagemPersonagem: {fileID: 21300000, guid: 4ee1ee102a52f8642aac1ce841f3f8bd, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -5393,8 +5409,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746.04614, y: 31.11499}
-  m_SizeDelta: {x: 186.9814, y: 179.87}
+  m_AnchoredPosition: {x: -750, y: 38}
+  m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &504216660
 MonoBehaviour:
@@ -5416,9 +5432,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -5661,7 +5677,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 162.25, y: 25.9, z: -10}
+  m_LocalPosition: {x: 6, y: 0.6499996, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5734,8 +5750,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746.04614, y: 31.11499}
-  m_SizeDelta: {x: 186.9814, y: 179.87}
+  m_AnchoredPosition: {x: -730, y: 38}
+  m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &524103417
 MonoBehaviour:
@@ -5757,9 +5773,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -5809,8 +5825,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746.04614, y: -102.40328}
-  m_SizeDelta: {x: 249.544, y: 50.7339}
+  m_AnchoredPosition: {x: -740, y: -130}
+  m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &544770251
 MonoBehaviour:
@@ -6240,7 +6256,7 @@ Transform:
   m_GameObject: {fileID: 577018247}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 162.25, y: 25.9, z: -10}
+  m_LocalPosition: {x: 6, y: 0.6499996, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6686,8 +6702,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746.04614, y: -102.40328}
-  m_SizeDelta: {x: 249.544, y: 50.7339}
+  m_AnchoredPosition: {x: -740, y: -130}
+  m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &606466244
 MonoBehaviour:
@@ -7067,8 +7083,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -340.74274}
-  m_SizeDelta: {x: 1776.0173, y: 283.2489}
+  m_AnchoredPosition: {x: 7, y: -330}
+  m_SizeDelta: {x: 1820, y: 340}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &650042198
 AudioSource:
@@ -7185,8 +7201,8 @@ MonoBehaviour:
   ListaFalas:
   - Texto: Bom mesmo!
     NomePersonagem: 
-    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
-    Jogador: 0
+    ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   Velocidade: 0.03
@@ -7489,8 +7505,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746.04614, y: -102.40328}
-  m_SizeDelta: {x: 249.544, y: 50.7339}
+  m_AnchoredPosition: {x: -740, y: -130}
+  m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &689113002
 MonoBehaviour:
@@ -60262,8 +60278,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 138.47656, y: -7.0826}
-  m_SizeDelta: {x: 1407.5013, y: 189.98}
+  m_AnchoredPosition: {x: 150, y: -1}
+  m_SizeDelta: {x: 1320, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &838617911
 MonoBehaviour:
@@ -60864,8 +60880,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746.04614, y: -102.40328}
-  m_SizeDelta: {x: 249.544, y: 50.7339}
+  m_AnchoredPosition: {x: -740, y: -130}
+  m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &983602058
 GameObject:
@@ -60901,8 +60917,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746.04614, y: -102.40328}
-  m_SizeDelta: {x: 249.544, y: 50.7339}
+  m_AnchoredPosition: {x: -740, y: -130}
+  m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &983602060
 MonoBehaviour:
@@ -61562,8 +61578,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 138.47656, y: -7.0826}
-  m_SizeDelta: {x: 1407.5013, y: 189.98}
+  m_AnchoredPosition: {x: 150, y: -1}
+  m_SizeDelta: {x: 1320, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1037674882
 GameObject:
@@ -64791,6 +64807,7 @@ GameObject:
   - component: {fileID: 1326334112}
   - component: {fileID: 1326334110}
   - component: {fileID: 1326334114}
+  - component: {fileID: 1326334116}
   m_Layer: 5
   m_Name: InputNome
   m_TagString: Untagged
@@ -64815,8 +64832,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -340.74274}
-  m_SizeDelta: {x: 1776, y: 283.25}
+  m_AnchoredPosition: {x: 7, y: -330}
+  m_SizeDelta: {x: 1820, y: 340}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1326334110
 AudioSource:
@@ -64979,6 +64996,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 7, y: 7}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1326334116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326334108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 7, y: 7}
   m_UseGraphicAlpha: 1
 --- !u!114 &1336989873
@@ -65578,8 +65610,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746.04614, y: 31.11499}
-  m_SizeDelta: {x: 186.9814, y: 179.87}
+  m_AnchoredPosition: {x: -730, y: 38}
+  m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1366814086
 MonoBehaviour:
@@ -65601,9 +65633,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -66070,8 +66102,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746.04614, y: -102.40328}
-  m_SizeDelta: {x: 249.544, y: 50.7339}
+  m_AnchoredPosition: {x: -740, y: -130}
+  m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1456656805
 MonoBehaviour:
@@ -66173,7 +66205,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
@@ -105472,8 +105504,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -340.74274}
-  m_SizeDelta: {x: 1776.0173, y: 283.2489}
+  m_AnchoredPosition: {x: 7, y: -330}
+  m_SizeDelta: {x: 1820, y: 340}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1551226006
 MonoBehaviour:
@@ -105530,26 +105562,26 @@ MonoBehaviour:
   ImagemUI: {fileID: 168621662}
   ListaFalas:
   - Texto: Aperte Z para pular, X para atcar e setas para se mover!
-    NomePersonagem: Old Croc
-    ImagemPersonagem: {fileID: -8256725307290018937, guid: 618594e696c50264a83d387d0b72c5e1, type: 3}
+    NomePersonagem: Velho Crocodilo
+    ImagemPersonagem: {fileID: 21300000, guid: 4ee1ee102a52f8642aac1ce841f3f8bd, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Ok!
-    NomePersonagem: Velho Crocodilo
-    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    NomePersonagem: 
+    ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Espera... o que?
     NomePersonagem: 
-    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    ImagemPersonagem: {fileID: -8601340400568838170, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Opa! Perd\xE3o, \xE9 s\xF3 um velho h\xE1bito meu, heheheh!"
     NomePersonagem: Velho Crocodilo
-    ImagemPersonagem: {fileID: -8256725307290018937, guid: 618594e696c50264a83d387d0b72c5e1, type: 3}
+    ImagemPersonagem: {fileID: 21300000, guid: 4ee1ee102a52f8642aac1ce841f3f8bd, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -106210,8 +106242,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746.04614, y: 31.11499}
-  m_SizeDelta: {x: 186.9814, y: 179.87}
+  m_AnchoredPosition: {x: -730, y: 38}
+  m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1605357293
 MonoBehaviour:
@@ -106233,9 +106265,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -106521,8 +106553,8 @@ MonoBehaviour:
   ListaFalas:
   - Texto: Cheirinho bom!
     NomePersonagem: 
-    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
-    Jogador: 0
+    ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   Velocidade: 0.03
@@ -106598,8 +106630,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -340.74274}
-  m_SizeDelta: {x: 1776.0173, y: 283.2489}
+  m_AnchoredPosition: {x: 7, y: -330}
+  m_SizeDelta: {x: 1820, y: 340}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1668770761
 GameObject:
@@ -107036,8 +107068,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -340.74274}
-  m_SizeDelta: {x: 1776.0173, y: 283.2489}
+  m_AnchoredPosition: {x: 7, y: -330}
+  m_SizeDelta: {x: 1820, y: 340}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1758471154
 AudioSource:
@@ -107154,31 +107186,31 @@ MonoBehaviour:
   ListaFalas:
   - Texto: Aonde vai com tanta pressa, {Nome}?
     NomePersonagem: Velho Crocodilo
-    ImagemPersonagem: {fileID: -8256725307290018937, guid: 618594e696c50264a83d387d0b72c5e1, type: 3}
+    ImagemPersonagem: {fileID: 21300000, guid: 4ee1ee102a52f8642aac1ce841f3f8bd, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
-  - Texto: Para a montanha.
+  - Texto: Para o topo da montanha.
     NomePersonagem: 
-    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
-  - Texto: "A montanha? E o que tem de t\xE3o interessante l\xE1 em cima?"
-    NomePersonagem: 
-    ImagemPersonagem: {fileID: -8256725307290018937, guid: 618594e696c50264a83d387d0b72c5e1, type: 3}
+  - Texto: "A montanha?! E o que tem de t\xE3o interessante l\xE1 em cima?"
+    NomePersonagem: Velho Crocodilo
+    ImagemPersonagem: {fileID: 21300000, guid: 4ee1ee102a52f8642aac1ce841f3f8bd, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Eu... n\xE3o sei."
     NomePersonagem: 
-    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Mas acho que vou descobrir!
     NomePersonagem: 
-    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -107276,8 +107308,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -340.74274}
-  m_SizeDelta: {x: 1776.0173, y: 283.2489}
+  m_AnchoredPosition: {x: 7, y: -330}
+  m_SizeDelta: {x: 1820, y: 340}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1770822901
 AudioSource:
@@ -107394,13 +107426,13 @@ MonoBehaviour:
   ListaFalas:
   - Texto: "Meu nome \xE9... {Nome}."
     NomePersonagem: 
-    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Hmmm, se voc\xEA t\xE1 dizendo... heheheh! "
-    NomePersonagem: 
-    ImagemPersonagem: {fileID: -8256725307290018937, guid: 618594e696c50264a83d387d0b72c5e1, type: 3}
+    NomePersonagem: Velho Crocodilo
+    ImagemPersonagem: {fileID: 21300000, guid: 4ee1ee102a52f8642aac1ce841f3f8bd, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -107678,6 +107710,7 @@ GameObject:
   - component: {fileID: 1781118061}
   - component: {fileID: 1781118060}
   - component: {fileID: 1781118059}
+  - component: {fileID: 1781118062}
   m_Layer: 5
   m_Name: Input
   m_TagString: Untagged
@@ -107704,8 +107737,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26, y: 40}
-  m_SizeDelta: {x: 467.527, y: 81.708}
+  m_AnchoredPosition: {x: 7.9989014, y: 40}
+  m_SizeDelta: {x: 640.03, y: 81.708}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1781118059
 MonoBehaviour:
@@ -107813,6 +107846,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1781118056}
   m_CullTransparentMesh: 1
+--- !u!114 &1781118062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781118056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 5, y: 5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1787845767
 GameObject:
   m_ObjectHideFlags: 0
@@ -108263,7 +108311,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     m_FontSize: 40
     m_FontStyle: 2
     m_BestFit: 0
@@ -108275,7 +108323,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Inserir texto
+  m_Text: Inserir nome
 --- !u!222 &1804709791
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -108318,8 +108366,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746.04614, y: -102.40328}
-  m_SizeDelta: {x: 249.544, y: 50.7339}
+  m_AnchoredPosition: {x: -740, y: -130}
+  m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1817741064
 MonoBehaviour:
@@ -108889,8 +108937,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 138.47656, y: -7.0826}
-  m_SizeDelta: {x: 1407.5013, y: 189.98}
+  m_AnchoredPosition: {x: 150, y: -1}
+  m_SizeDelta: {x: 1320, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1877890866
 MonoBehaviour:
@@ -109587,9 +109635,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -109621,8 +109669,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -746.04614, y: 31.11499}
-  m_SizeDelta: {x: 186.9814, y: 179.87}
+  m_AnchoredPosition: {x: -750, y: 38}
+  m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!213 &1969095023
 Sprite:
@@ -110545,8 +110593,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 138.47656, y: -7.0826}
-  m_SizeDelta: {x: 1407.5013, y: 189.98}
+  m_AnchoredPosition: {x: 150, y: -1}
+  m_SizeDelta: {x: 1320, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2080913073
 MonoBehaviour:

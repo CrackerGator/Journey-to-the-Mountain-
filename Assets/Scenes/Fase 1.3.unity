@@ -438,8 +438,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -731.02344, y: -74.0827}
-  m_SizeDelta: {x: 305.544, y: 55.9839}
+  m_AnchoredPosition: {x: -740, y: -130}
+  m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &78252658
 GameObject:
@@ -612,9 +612,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -646,8 +646,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -743.02344, y: 25.917297}
-  m_SizeDelta: {x: 155.7314, y: 151.4444}
+  m_AnchoredPosition: {x: -730, y: 38}
+  m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &143674662
 GameObject:
@@ -1153,7 +1153,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &261893720
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1269,25 +1269,25 @@ MonoBehaviour:
   ListaFalas:
   - Texto: Ei! Aonde vai com tanta pressa?!
     NomePersonagem: Rei Crocodilo
-    ImagemPersonagem: {fileID: -8256725307290018937, guid: 618594e696c50264a83d387d0b72c5e1, type: 3}
+    ImagemPersonagem: {fileID: 1741502828639605652, guid: 289cba3ddf194ca4e85f4b602195706f, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Eu preciso chegar no topo da montanha!
     NomePersonagem: 
-    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "O topo da montanha \xE9 pro\xEDbido!"
     NomePersonagem: Rei Crocodilo
-    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    ImagemPersonagem: {fileID: 1741502828639605652, guid: 289cba3ddf194ca4e85f4b602195706f, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Volte para o seu laguinho, imediatamente!!
     NomePersonagem: Rei Crocodilo
-    ImagemPersonagem: {fileID: 364427086378426342, guid: a9449ca7c93ff8c4482d610e901f48f9, type: 3}
+    ImagemPersonagem: {fileID: 1741502828639605652, guid: 289cba3ddf194ca4e85f4b602195706f, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -1454,8 +1454,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -350}
-  m_SizeDelta: {x: 1820, y: 280}
+  m_AnchoredPosition: {x: 7, y: -330}
+  m_SizeDelta: {x: 1820, y: 340}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &274990042
 GameObject:
@@ -3870,8 +3870,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 159.97656, y: -7.0826}
-  m_SizeDelta: {x: 1450.5013, y: 189.98}
+  m_AnchoredPosition: {x: 150, y: -1}
+  m_SizeDelta: {x: 1320, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1460192500
 GameObject:
@@ -4346,7 +4346,7 @@ MonoBehaviour:
     AngularDampingMode: 0
     RotationDamping: {x: 1, y: 1, z: 1}
     QuaternionDamping: 1
-  FollowOffset: {x: 0, y: 2, z: -10}
+  FollowOffset: {x: 0, y: 1, z: -10}
 --- !u!114 &1746221961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4399,7 +4399,7 @@ Transform:
   m_GameObject: {fileID: 1746221959}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.48000002, y: 0.77, z: -10}
+  m_LocalPosition: {x: -0.48000002, y: -0.23000002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4643,7 +4643,7 @@ Transform:
   m_GameObject: {fileID: 1767550988}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.48000002, y: 0.77, z: -10}
+  m_LocalPosition: {x: -0.48000002, y: -0.23000002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
