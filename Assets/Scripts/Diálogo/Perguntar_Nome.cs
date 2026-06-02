@@ -33,7 +33,8 @@ public class Perguntar_Nome : Interagir{
             break;
 
             case 2: 
-            Dialogo4.SetActive(true);
+                Dialogo4.SetActive(true);
+                i++;
             break;
 
             case 3: 

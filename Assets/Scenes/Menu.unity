@@ -919,7 +919,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &728139004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1113,7 +1113,7 @@ GameObject:
   - component: {fileID: 887143855}
   - component: {fileID: 887143858}
   m_Layer: 5
-  m_Name: Jogar
+  m_Name: Novo Jogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

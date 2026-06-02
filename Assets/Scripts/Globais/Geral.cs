@@ -32,7 +32,7 @@ public class Geral : MonoBehaviour{
         A = TipoAnimal.Nenhum;
         Chaves = 0;
         Atalho = false;
-}
+    }
 
     //Eu só preciso disso pra testar as fases sem reiniciar o jogo
     //O GameObject Geral se cria automaticamente

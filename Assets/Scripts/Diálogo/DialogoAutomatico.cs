@@ -1,7 +1,8 @@
 using UnityEngine;
 using System.Collections;
 public class DialogoAutomatico : MonoBehaviour{
-   public GameObject Dialogo;
+   public GameObject DialogoCrocodilo;
+   public GameObject DialogoJacare;
     public MonoBehaviour Chefe;
 
     IEnumerator Start(){
@@ -11,7 +12,12 @@ public class DialogoAutomatico : MonoBehaviour{
         
         yield return new WaitForSeconds(0.5f);
 
-        Dialogo.SetActive(true);
+        if(Geral.Instancia.A == TipoAnimal.Crocodilo){
+            DialogoCrocodilo.SetActive(true);
+        }
+        else if(Geral.Instancia.A == TipoAnimal.Jacaré || Geral.Instancia.A == TipoAnimal.Nenhum){
+            DialogoJacare.SetActive(true);
+        }
 
         yield return new WaitUntil(() => Caixa_Dialogo.Ativa == false);
 

@@ -21,7 +21,7 @@ public class SaveManager : MonoBehaviour{
 
         File.WriteAllText(Caminho, json);
 
-        Debug.Log("Jogo Salvo");
+        Debug.Log(Caminho);
     }
 
     public bool Carregar(){
