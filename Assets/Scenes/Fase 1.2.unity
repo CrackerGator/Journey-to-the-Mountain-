@@ -42867,8 +42867,8 @@ MonoBehaviour:
   Volta: 3
   Teto: {x: 0, y: 0}
   Caverna: 0
-  Detector1: 1
-  Detector2: 4
+  Ativado: 0
+  Detector: 1
   DistanciaJogador: 0
 --- !u!50 &574730842
 Rigidbody2D:
@@ -44556,8 +44556,8 @@ MonoBehaviour:
   Volta: 3
   Teto: {x: 0, y: 0}
   Caverna: 0
-  Detector1: 1
-  Detector2: 4
+  Ativado: 0
+  Detector: 1
   DistanciaJogador: 0
 --- !u!50 &909968245
 Rigidbody2D:
@@ -78969,7 +78969,7 @@ Transform:
   m_GameObject: {fileID: 1706209607}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.58, y: -0.9100001, z: 0}
+  m_LocalPosition: {x: 28.58, y: -1.0469186, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -79420,7 +79420,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1949003748
 Transform:
   m_ObjectHideFlags: 0
@@ -79430,7 +79430,7 @@ Transform:
   m_GameObject: {fileID: 1949003747}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.3715801, y: -0.69440997, z: 0}
+  m_LocalPosition: {x: -3.3784199, y: 1.05559, z: 0}
   m_LocalScale: {x: 0.79999995, y: 0.79999995, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -79485,12 +79485,12 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 8f005fc06b49371429fa2a08804f14ca, type: 3}
+  m_Sprite: {fileID: -106549437, guid: 8f005fc06b49371429fa2a08804f14ca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -79814,8 +79814,8 @@ MonoBehaviour:
   Volta: 3
   Teto: {x: 0, y: 0}
   Caverna: 0
-  Detector1: 1
-  Detector2: 4
+  Ativado: 0
+  Detector: 1
   DistanciaJogador: 0
 --- !u!50 &2005192912
 Rigidbody2D:
@@ -80119,8 +80119,8 @@ MonoBehaviour:
   Volta: 3
   Teto: {x: 0, y: 0}
   Caverna: 0
-  Detector1: 1
-  Detector2: 4
+  Ativado: 0
+  Detector: 1
   DistanciaJogador: 0
 --- !u!50 &2070150711
 Rigidbody2D:

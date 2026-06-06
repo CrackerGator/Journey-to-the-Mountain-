@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 8f005fc06b49371429fa2a08804f14ca
+guid: 29f5e48906b7c1a4faa6c3692ca63615
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7126109635181220202
-    second: Interacao_0
+      213: 712223565716135397
+    second: Limossauro_0
+  - first:
+      213: -2095885681930631403
+    second: Limossauro_1
+  - first:
+      213: 5996908082452195272
+    second: Limossauro_2
+  - first:
+      213: 4220735566333642469
+    second: Limossauro_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Interacao_0
+      name: Limossauro_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
-        height: 32
+        width: 128
+        height: 112
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,30 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69ee884ea09fa1d90800000000000000
-      internalID: -7126109635181220202
+      spriteID: 5ed1c2b3f8352e900800000000000000
+      internalID: 712223565716135397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interacao_1
+      name: Limossauro_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 128
         y: 0
-        width: 48
-        height: 32
+        width: 128
+        height: 112
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8e73f11d19c76594ca5d39db6587d8cb
-      internalID: -106549437
+      spriteID: 51782b6a31be9e2e0800000000000000
+      internalID: -2095885681930631403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Limossauro_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c76b35c02c493350800000000000000
+      internalID: 5996908082452195272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Limossauro_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e68c2a92a0139a30800000000000000
+      internalID: 4220735566333642469
       vertices: []
       indices: 
       edges: []
@@ -147,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: ba183d6a1c19d1a4a932d6207e9cbb4b
     internalID: 0
     vertices: []
     indices: 
@@ -157,10 +210,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":112.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Interacao_0: -7126109635181220202
-      Interacao_1: -106549437
+      Limossauro_0: 712223565716135397
+      Limossauro_1: -2095885681930631403
+      Limossauro_2: 5996908082452195272
+      Limossauro_3: 4220735566333642469
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

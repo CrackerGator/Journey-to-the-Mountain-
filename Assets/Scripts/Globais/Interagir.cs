@@ -7,7 +7,7 @@ public class Interagir : MonoBehaviour{
     public GameObject Icone;
     public bool Perto;
     public KeyCode Input1;
-
+    
     protected virtual void Update(){
         if (Perto && Input.GetKeyDown(Input1) && !Caixa_Dialogo.Ativa){
             Interagir1();
