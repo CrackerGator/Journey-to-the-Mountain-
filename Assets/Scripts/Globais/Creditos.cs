@@ -23,7 +23,7 @@ public class Creditos : MonoBehaviour{
                 break;
 
                 case 1:
-                    SceneManager.LoadScene("Menu");
+                    Fade.Instancia.TrocarCena("Menu");
                 break;
             }
         }

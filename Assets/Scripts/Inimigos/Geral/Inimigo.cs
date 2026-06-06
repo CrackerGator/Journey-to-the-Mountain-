@@ -24,10 +24,9 @@ public class Inimigo : MonoBehaviour{
 
         if (Body != null){
             Body.linearVelocity = Vector2.zero;
-            Body.simulated = false;
         }
         foreach (Collider2D C in Colliders){
-            C.enabled = false;
+            if(C.isTrigger){C.enabled = false;}
         }
     }
     protected IEnumerator Desativar(){

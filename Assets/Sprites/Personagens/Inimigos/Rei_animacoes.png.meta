@@ -3,44 +3,50 @@ guid: 5256aa6a481fbc648acf45b7f3589dab
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5201634664622424818
-    second: KingCroc_animacoes_0
+      213: 5643568342294104651
+    second: Rei_animacoes_0
   - first:
-      213: -7633673968755327273
-    second: KingCroc_animacoes_1
+      213: 6042979129055798306
+    second: Rei_animacoes_1
   - first:
-      213: -8997147768373254126
-    second: KingCroc_animacoes_2
+      213: 2703347327233336634
+    second: Rei_animacoes_2
   - first:
-      213: 4627627870053608872
-    second: KingCroc_animacoes_3
+      213: -506549987176930490
+    second: Rei_animacoes_3
   - first:
-      213: 8264055721600698901
-    second: KingCroc_animacoes_4
+      213: -6758222524873202015
+    second: Rei_animacoes_4
   - first:
-      213: -8421166454594313494
-    second: KingCroc_animacoes_5
+      213: -6377483281122204009
+    second: Rei_animacoes_5
   - first:
-      213: 8458840273930927793
-    second: KingCroc_animacoes_6
+      213: -652296377008032938
+    second: Rei_animacoes_6
   - first:
-      213: -6647726510811038943
-    second: KingCroc_animacoes_7
+      213: 6766036877784472769
+    second: Rei_animacoes_7
   - first:
-      213: 9160046785445641997
-    second: KingCroc_animacoes_8
+      213: 6858691231449693190
+    second: Rei_animacoes_8
   - first:
-      213: -2743806299393539307
-    second: KingCroc_animacoes_9
+      213: -5979408482205950049
+    second: Rei_animacoes_9
   - first:
-      213: 6573291172329761235
-    second: KingCroc_animacoes_10
+      213: 8185146965425606669
+    second: Rei_animacoes_10
   - first:
-      213: -5617685444370162928
-    second: KingCroc_animacoes_11
+      213: -1637232866117766779
+    second: Rei_animacoes_11
   - first:
-      213: 2377605273839220668
-    second: KingCroc_animacoes_12
+      213: -3584114062413458504
+    second: Rei_animacoes_12
+  - first:
+      213: 9122534785329344726
+    second: Rei_animacoes_13
+  - first:
+      213: 149372834060974611
+    second: Rei_animacoes_14
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -136,7 +142,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: KingCroc_animacoes_0
+      name: Rei_animacoes_0
       rect:
         serializedVersion: 2
         x: 0
@@ -151,14 +157,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e0d72dbf4d410d7b0800000000000000
-      internalID: -5201634664622424818
+      spriteID: b4a8414a18bf15e40800000000000000
+      internalID: 5643568342294104651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KingCroc_animacoes_1
+      name: Rei_animacoes_1
       rect:
         serializedVersion: 2
         x: 160
@@ -173,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7de313968fdbf0690800000000000000
-      internalID: -7633673968755327273
+      spriteID: 22468743089fcd350800000000000000
+      internalID: 6042979129055798306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KingCroc_animacoes_2
+      name: Rei_animacoes_2
       rect:
         serializedVersion: 2
         x: 320
@@ -195,14 +201,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 218e96a06c5b32380800000000000000
-      internalID: -8997147768373254126
+      spriteID: a35ae383218348520800000000000000
+      internalID: 2703347327233336634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KingCroc_animacoes_3
+      name: Rei_animacoes_3
       rect:
         serializedVersion: 2
         x: 480
@@ -217,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ad2e339703a83040800000000000000
-      internalID: 4627627870053608872
+      spriteID: 6432751787f58f8f0800000000000000
+      internalID: -506549987176930490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KingCroc_animacoes_4
+      name: Rei_animacoes_4
       rect:
         serializedVersion: 2
         x: 640
@@ -239,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51a4b0ad4e2dfa270800000000000000
-      internalID: 8264055721600698901
+      spriteID: 1a6a3e39b68f532a0800000000000000
+      internalID: -6758222524873202015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KingCroc_animacoes_5
+      name: Rei_animacoes_5
       rect:
         serializedVersion: 2
         x: 800
@@ -261,14 +267,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae2687f0ab1022b80800000000000000
-      internalID: -8421166454594313494
+      spriteID: 796e7b3ceb0ae77a0800000000000000
+      internalID: -6377483281122204009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KingCroc_animacoes_6
+      name: Rei_animacoes_6
       rect:
         serializedVersion: 2
         x: 960
@@ -283,8 +289,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bebb6b8966d36570800000000000000
-      internalID: 8458840273930927793
+      spriteID: 6537920b6e392f6f0800000000000000
+      internalID: -652296377008032938
       vertices: []
       indices: 
       edges: []
@@ -293,7 +299,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f2583d291be24914fad00911da1a3494
+    spriteID: dd0bab28f15102d4483e7088e633383e
     internalID: 0
     vertices: []
     indices: 
@@ -305,13 +311,13 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":160.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      KingCroc_animacoes_0: -5201634664622424818
-      KingCroc_animacoes_1: -7633673968755327273
-      KingCroc_animacoes_2: -8997147768373254126
-      KingCroc_animacoes_3: 4627627870053608872
-      KingCroc_animacoes_4: 8264055721600698901
-      KingCroc_animacoes_5: -8421166454594313494
-      KingCroc_animacoes_6: 8458840273930927793
+      Rei_animacoes_0: 5643568342294104651
+      Rei_animacoes_1: 6042979129055798306
+      Rei_animacoes_2: 2703347327233336634
+      Rei_animacoes_3: -506549987176930490
+      Rei_animacoes_4: -6758222524873202015
+      Rei_animacoes_5: -6377483281122204009
+      Rei_animacoes_6: -652296377008032938
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

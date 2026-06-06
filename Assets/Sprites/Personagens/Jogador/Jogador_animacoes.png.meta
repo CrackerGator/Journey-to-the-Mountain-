@@ -1,40 +1,40 @@
 fileFormatVersion: 2
-guid: a06fa29230bfb304f8629242407189fa
+guid: c2f899f52ff01f34688d2d1176413171
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8035701367978854465
-    second: Jogador_animacoes-sheet_0
+      213: -7938757727995396588
+    second: Jogador_animacoes_0
   - first:
-      213: -1488771993453631738
-    second: Jogador_animacoes-sheet_1
+      213: -957987870545311216
+    second: Jogador_animacoes_1
   - first:
-      213: 3361903871887640164
-    second: Jogador_animacoes-sheet_2
+      213: 2183698374364807986
+    second: Jogador_animacoes_2
   - first:
-      213: 6883433488416802846
-    second: Jogador_animacoes-sheet_3
+      213: 6303125926265572347
+    second: Jogador_animacoes_3
   - first:
-      213: -6194278603017830440
-    second: Jogador_animacoes-sheet_4
+      213: 3136959417712375761
+    second: Jogador_animacoes_4
   - first:
-      213: 7742936951765578579
-    second: Jogador_animacoes-sheet_5
+      213: 7017033461798714672
+    second: Jogador_animacoes_5
   - first:
-      213: -8566757665496398874
-    second: Jogador_animacoes-sheet_6
+      213: 794224958400766147
+    second: Jogador_animacoes_6
   - first:
-      213: 9146794766269943400
-    second: Jogador_animacoes-sheet_7
+      213: 8623886630059113627
+    second: Jogador_animacoes_7
   - first:
-      213: 2060134614390222217
-    second: Jogador_animacoes-sheet_8
+      213: -7852016055284775836
+    second: Jogador_animacoes_8
   - first:
-      213: -1279334977350773001
-    second: Jogador_animacoes-sheet_9
+      213: 7831350982079501724
+    second: Jogador_animacoes_9
   - first:
-      213: -8586587725919713522
-    second: Jogador_animacoes-sheet_10
+      213: -3903847287429867341
+    second: Jogador_animacoes_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -130,7 +130,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jogador_animacoes-sheet_0
+      name: Jogador_animacoes_0
       rect:
         serializedVersion: 2
         x: 0
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1480087b1db848f60800000000000000
-      internalID: 8035701367978854465
+      spriteID: 41e72f068edd3d190800000000000000
+      internalID: -7938757727995396588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jogador_animacoes-sheet_1
+      name: Jogador_animacoes_1
       rect:
         serializedVersion: 2
         x: 96
@@ -167,14 +167,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60765a282c1d65be0800000000000000
-      internalID: -1488771993453631738
+      spriteID: 01a830d7b1b84b2f0800000000000000
+      internalID: -957987870545311216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jogador_animacoes-sheet_2
+      name: Jogador_animacoes_2
       rect:
         serializedVersion: 2
         x: 192
@@ -189,14 +189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4668fd462c1e7ae20800000000000000
-      internalID: 3361903871887640164
+      spriteID: 233cc9c0a1e0e4e10800000000000000
+      internalID: 2183698374364807986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jogador_animacoes-sheet_3
+      name: Jogador_animacoes_3
       rect:
         serializedVersion: 2
         x: 288
@@ -211,14 +211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e188c18a94ed68f50800000000000000
-      internalID: 6883433488416802846
+      spriteID: bfb4d9172a3397750800000000000000
+      internalID: 6303125926265572347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jogador_animacoes-sheet_4
+      name: Jogador_animacoes_4
       rect:
         serializedVersion: 2
         x: 384
@@ -233,14 +233,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8dfb153ed60890aa0800000000000000
-      internalID: -6194278603017830440
+      spriteID: 1d7ff8758f7b88b20800000000000000
+      internalID: 3136959417712375761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jogador_animacoes-sheet_5
+      name: Jogador_animacoes_5
       rect:
         serializedVersion: 2
         x: 480
@@ -255,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 353bb304220747b60800000000000000
-      internalID: 7742936951765578579
+      spriteID: 03dba8371c2816160800000000000000
+      internalID: 7017033461798714672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jogador_animacoes-sheet_6
+      name: Jogador_animacoes_6
       rect:
         serializedVersion: 2
         x: 576
@@ -277,14 +277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e38b37ba43cc1980800000000000000
-      internalID: -8566757665496398874
+      spriteID: 3c02a354467a50b00800000000000000
+      internalID: 794224958400766147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jogador_animacoes-sheet_7
+      name: Jogador_animacoes_7
       rect:
         serializedVersion: 2
         x: 672
@@ -299,8 +299,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86e0cecc061ffee70800000000000000
-      internalID: 9146794766269943400
+      spriteID: b9cf9efd2333ea770800000000000000
+      internalID: 8623886630059113627
       vertices: []
       indices: 
       edges: []
@@ -309,7 +309,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1ac3a4d9485dfe447a0920d312280686
+    spriteID: e51cbe680b2801e4899e947d99039679
     internalID: 0
     vertices: []
     indices: 
@@ -321,14 +321,14 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Jogador_animacoes-sheet_0: 8035701367978854465
-      Jogador_animacoes-sheet_1: -1488771993453631738
-      Jogador_animacoes-sheet_2: 3361903871887640164
-      Jogador_animacoes-sheet_3: 6883433488416802846
-      Jogador_animacoes-sheet_4: -6194278603017830440
-      Jogador_animacoes-sheet_5: 7742936951765578579
-      Jogador_animacoes-sheet_6: -8566757665496398874
-      Jogador_animacoes-sheet_7: 9146794766269943400
+      Jogador_animacoes_0: -7938757727995396588
+      Jogador_animacoes_1: -957987870545311216
+      Jogador_animacoes_2: 2183698374364807986
+      Jogador_animacoes_3: 6303125926265572347
+      Jogador_animacoes_4: 3136959417712375761
+      Jogador_animacoes_5: 7017033461798714672
+      Jogador_animacoes_6: 794224958400766147
+      Jogador_animacoes_7: 8623886630059113627
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,6 @@
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.Assertions.Must;
 
 public class Morcego : Inimigo{
 
@@ -8,25 +9,28 @@ public enum Estado {Inicial, Indo, Voltando}
     private SpriteRenderer Sprite1;
     private Animator Animacao;
     public Transform Jogador;
-    public float Detector = 4f;
 
     [Header("Velocidade")]
     public float Ida = 4f;
     public float Volta = 3f;
-
+    
+    [Header("Verificadores")]
     public Vector2 Teto;
     public bool Caverna = false;
-
+    public bool Ativado = false;
+    public float Detector = 1f;
     public float DistanciaJogador;
 
     void Start(){
         Sprite1 = GetComponent<SpriteRenderer>();
         Animacao = GetComponent<Animator>();
-
         Teto = transform.position; 
+        Body.gravityScale = 0f;
     }
 
     void Update(){
+        if(Derrotado){return;}
+
         DistanciaJogador = Vector2.Distance(Jogador.position, transform.position);
         Perseguir();
     }
@@ -36,7 +40,11 @@ public enum Estado {Inicial, Indo, Voltando}
             case Estado.Inicial:
                 Body.linearVelocity = Vector2.zero;
                 Animacao.Play("Morcego_Idle");
-                if (Caverna == true && DistanciaJogador < Detector){
+                
+                bool Ativar = Mathf.Abs(Jogador.position.x - transform.position.x) < Detector;
+
+                if(Caverna && Ativar){
+                    Ativado = true;
                     EstadoAtual = Estado.Indo;
                 }
             break;
@@ -44,7 +52,7 @@ public enum Estado {Inicial, Indo, Voltando}
             case Estado.Indo:
                 Animacao.Play("Morcego_Andando");
                 
-                if (Caverna == false || DistanciaJogador > Detector){
+                if (!Caverna){
                     Body.linearVelocity = Vector2.zero;
                     EstadoAtual = Estado.Voltando;
                     break;
@@ -73,6 +81,7 @@ public enum Estado {Inicial, Indo, Voltando}
                 transform.position = Vector2.MoveTowards(transform.position, Teto, Volta * Time.deltaTime);
 
                 if (Vector2.Distance(transform.position, Teto) < 0.1f){
+                    Ativado = false;
                     EstadoAtual = Estado.Inicial;
                 }
             break;
@@ -81,13 +90,16 @@ public enum Estado {Inicial, Indo, Voltando}
      protected override void Morrer(){
         base.Morrer();
         Animacao.Play("Morcego_Derrotado");
+        Body.gravityScale = 4f;
         StartCoroutine(Desativar());
     } 
 
     void OnTriggerEnter2D(Collider2D collision){
-        if(collision.CompareTag("Caverna")){Caverna = true;}
+        if(collision.CompareTag("Caverna")){
+            Caverna = true;}
     }
     void OnTriggerExit2D(Collider2D collision){
-        if(collision.CompareTag("Caverna")){Caverna = false;}
+        if(collision.CompareTag("Caverna")){
+            Caverna = false;}
     }
 }

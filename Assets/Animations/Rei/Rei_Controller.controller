@@ -33,7 +33,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: King_Derrotado
+  m_Name: Rei_Derrotado
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -85,7 +85,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: King_Mordida
+  m_Name: Rei_Mordida
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -110,7 +110,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: KingCroc_Controller
+  m_Name: Rei_Controller
   serializedVersion: 6
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -134,7 +134,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: King_Idle
+  m_Name: Rei_Idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -197,7 +197,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: King_Dash
+  m_Name: Rei_Dash
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []

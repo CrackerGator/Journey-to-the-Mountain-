@@ -499,8 +499,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5, y: 3}
-    newSize: {x: 5, y: 3}
+    oldSize: {x: 3.75, y: 2.75}
+    newSize: {x: 0.6, y: 0.44}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -516,7 +516,7 @@ Transform:
   m_GameObject: {fileID: 17440125}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.87, y: -1.8685608, z: 0}
+  m_LocalPosition: {x: 8.853594, y: -1.9095757, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -572,12 +572,12 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: a184d81ad6d8caa408bf1e6420b9d01d, type: 3}
+  m_Sprite: {fileID: 4875054532204853888, guid: c2017237e31e4a6409646816940896d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5, y: 3}
+  m_Size: {x: 0.6, y: 0.44}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3046,12 +3046,12 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 00f65d12bf3791b40a35e9a4f1660cae, type: 3}
+  m_Sprite: {fileID: -8958988217088283558, guid: cdd7864cfb824c049927f3f4c6a7e708, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 6.25, y: 7.625}
+  m_Size: {x: 3.5625, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3065,7 +3065,7 @@ Transform:
   m_GameObject: {fileID: 199160540}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5, y: -1.6000004, z: 0}
+  m_LocalPosition: {x: -1.75, y: -1.406158, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6442,7 +6442,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.5, y: -0.6000004, z: -10}
+  m_LocalPosition: {x: -1.75, y: -0.40615797, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7021,7 +7021,7 @@ Transform:
   m_GameObject: {fileID: 577018247}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5, y: -0.6000004, z: -10}
+  m_LocalPosition: {x: -1.75, y: -0.40615797, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7295,11 +7295,12 @@ MonoBehaviour:
   Vida: 0
   Derrotado: 0
   Jogador: {fileID: 199160545}
-  Detector: 10
   Ida: 3
   Volta: 3
   Teto: {x: 0, y: 0}
   Caverna: 0
+  Ativado: 0
+  Detector: 1
   DistanciaJogador: 0
 --- !u!50 &582206347
 Rigidbody2D:
@@ -7987,11 +7988,12 @@ MonoBehaviour:
   Vida: 0
   Derrotado: 0
   Jogador: {fileID: 199160545}
-  Detector: 10
   Ida: 3
   Volta: 3
   Teto: {x: 0, y: 0}
   Caverna: 0
+  Ativado: 0
+  Detector: 1
   DistanciaJogador: 0
 --- !u!95 &630582861
 Animator:
@@ -8305,11 +8307,12 @@ MonoBehaviour:
   Vida: 0
   Derrotado: 0
   Jogador: {fileID: 199160545}
-  Detector: 10
   Ida: 3
   Volta: 3
   Teto: {x: 0, y: 0}
   Caverna: 0
+  Ativado: 0
+  Detector: 1
   DistanciaJogador: 0
 --- !u!50 &686933210
 Rigidbody2D:
@@ -9315,8 +9318,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5, y: 3}
-    newSize: {x: 5, y: 3}
+    oldSize: {x: 3.75, y: 2.75}
+    newSize: {x: 3.75, y: 2.75}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -9372,12 +9375,12 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: a184d81ad6d8caa408bf1e6420b9d01d, type: 3}
+  m_Sprite: {fileID: 4875054532204853888, guid: c2017237e31e4a6409646816940896d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5, y: 3}
+  m_Size: {x: 3.75, y: 2.75}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -35611,8 +35614,8 @@ Tilemap:
   - first: {x: 118, y: -9, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 27
-      m_TileSpriteIndex: 27
+      m_TileIndex: 3
+      m_TileSpriteIndex: 17
       m_TileMatrixIndex: 0
       m_TileColorIndex: 4
       m_TileObjectToInstantiateIndex: 65535
@@ -37841,8 +37844,8 @@ Tilemap:
   - first: {x: 117, y: -8, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 27
-      m_TileSpriteIndex: 27
+      m_TileIndex: 3
+      m_TileSpriteIndex: 17
       m_TileMatrixIndex: 0
       m_TileColorIndex: 4
       m_TileObjectToInstantiateIndex: 65535
@@ -42691,8 +42694,8 @@ Tilemap:
   - first: {x: 114, y: -6, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 27
-      m_TileSpriteIndex: 27
+      m_TileIndex: 3
+      m_TileSpriteIndex: 17
       m_TileMatrixIndex: 0
       m_TileColorIndex: 4
       m_TileObjectToInstantiateIndex: 65535
@@ -60460,7 +60463,7 @@ Tilemap:
     m_RefCount: 0
     m_Data: {fileID: 2061763768}
   - serializedVersion: 2
-    m_RefCount: 23
+    m_RefCount: 26
     m_Data: {fileID: 11400000, guid: 3632756451006cb43b3ce19395e84034, type: 2}
   - serializedVersion: 2
     m_RefCount: 0
@@ -60532,7 +60535,7 @@ Tilemap:
     m_RefCount: 17
     m_Data: {fileID: 11400000, guid: 401b8302f3b5ffe449580499348ce757, type: 2}
   - serializedVersion: 2
-    m_RefCount: 2760
+    m_RefCount: 2757
     m_Data: {fileID: 11400000, guid: 3c610f5da27dc7545af1f1b7e7275464, type: 2}
   - serializedVersion: 2
     m_RefCount: 15
@@ -60668,7 +60671,7 @@ Tilemap:
     m_RefCount: 5
     m_Data: {fileID: -790888294, guid: bce8dba177b498645b9763451a3ae706, type: 3}
   - serializedVersion: 2
-    m_RefCount: 23
+    m_RefCount: 26
     m_Data: {fileID: 401908737, guid: bce8dba177b498645b9763451a3ae706, type: 3}
   - serializedVersion: 2
     m_RefCount: 0
@@ -60698,7 +60701,7 @@ Tilemap:
     m_RefCount: 1287
     m_Data: {fileID: -33723580, guid: bce8dba177b498645b9763451a3ae706, type: 3}
   - serializedVersion: 2
-    m_RefCount: 2760
+    m_RefCount: 2757
     m_Data: {fileID: -360737543, guid: bce8dba177b498645b9763451a3ae706, type: 3}
   - serializedVersion: 2
     m_RefCount: 15
@@ -62892,11 +62895,12 @@ MonoBehaviour:
   Vida: 0
   Derrotado: 0
   Jogador: {fileID: 199160545}
-  Detector: 10
   Ida: 3
   Volta: 3
   Teto: {x: 0, y: 0}
   Caverna: 0
+  Ativado: 0
+  Detector: 1
   DistanciaJogador: 0
 --- !u!50 &1004616420
 Rigidbody2D:
@@ -65940,11 +65944,12 @@ MonoBehaviour:
   Vida: 0
   Derrotado: 0
   Jogador: {fileID: 199160545}
-  Detector: 10
   Ida: 3
   Volta: 3
   Teto: {x: 0, y: 0}
   Caverna: 0
+  Ativado: 0
+  Detector: 1
   DistanciaJogador: 0
 --- !u!50 &1225048819
 Rigidbody2D:
@@ -66789,11 +66794,12 @@ MonoBehaviour:
   Vida: 0
   Derrotado: 0
   Jogador: {fileID: 199160545}
-  Detector: 10
   Ida: 3
   Volta: 3
   Teto: {x: 0, y: 0}
   Caverna: 0
+  Ativado: 0
+  Detector: 1
   DistanciaJogador: 0
 --- !u!50 &1298351937
 Rigidbody2D:
@@ -67929,11 +67935,12 @@ MonoBehaviour:
   Vida: 0
   Derrotado: 0
   Jogador: {fileID: 199160545}
-  Detector: 10
   Ida: 3
   Volta: 3
   Teto: {x: 0, y: 0}
   Caverna: 0
+  Ativado: 0
+  Detector: 1
   DistanciaJogador: 0
 --- !u!50 &1361692603
 Rigidbody2D:
@@ -68911,11 +68918,12 @@ MonoBehaviour:
   Vida: 0
   Derrotado: 0
   Jogador: {fileID: 199160545}
-  Detector: 10
   Ida: 3
   Volta: 3
   Teto: {x: 0, y: 0}
   Caverna: 0
+  Ativado: 0
+  Detector: 1
   DistanciaJogador: 0
 --- !u!50 &1473568006
 Rigidbody2D:
@@ -85186,6 +85194,16 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: 97, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 13
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 98, y: -3, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 13
@@ -107827,7 +107845,7 @@ Tilemap:
     m_RefCount: 3
     m_Data: {fileID: 11400000, guid: 8f0f9d506412471459be113ebb64f09d, type: 2}
   - serializedVersion: 2
-    m_RefCount: 1525
+    m_RefCount: 1526
     m_Data: {fileID: 11400000, guid: eaffb3f921e7014449f51e5df0e89b13, type: 2}
   - serializedVersion: 2
     m_RefCount: 7
@@ -107843,7 +107861,7 @@ Tilemap:
     m_RefCount: 4
     m_Data: {fileID: -1809985174, guid: bce8dba177b498645b9763451a3ae706, type: 3}
   - serializedVersion: 2
-    m_RefCount: 1525
+    m_RefCount: 1526
     m_Data: {fileID: -1685512259, guid: bce8dba177b498645b9763451a3ae706, type: 3}
   - serializedVersion: 2
     m_RefCount: 7
@@ -107871,7 +107889,7 @@ Tilemap:
     m_Data: {fileID: 2403724249865808194, guid: bce8dba177b498645b9763451a3ae706, type: 3}
   m_TileMatrixArray:
   - serializedVersion: 2
-    m_RefCount: 3860
+    m_RefCount: 3861
     m_Data:
       e00: 1
       e01: 0
@@ -107891,7 +107909,7 @@ Tilemap:
       e33: 1
   m_TileColorArray:
   - serializedVersion: 2
-    m_RefCount: 3860
+    m_RefCount: 3861
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - serializedVersion: 2
     m_RefCount: 0
@@ -109799,11 +109817,12 @@ MonoBehaviour:
   Vida: 0
   Derrotado: 0
   Jogador: {fileID: 199160545}
-  Detector: 10
   Ida: 3
   Volta: 3
   Teto: {x: 0, y: 0}
   Caverna: 0
+  Ativado: 0
+  Detector: 1
   DistanciaJogador: 0
 --- !u!50 &1712433886
 Rigidbody2D:
@@ -111486,11 +111505,12 @@ MonoBehaviour:
   Vida: 0
   Derrotado: 0
   Jogador: {fileID: 199160545}
-  Detector: 10
   Ida: 3
   Volta: 3
   Teto: {x: 0, y: 0}
   Caverna: 0
+  Ativado: 0
+  Detector: 1
   DistanciaJogador: 0
 --- !u!50 &1828711514
 Rigidbody2D:
@@ -114174,11 +114194,12 @@ MonoBehaviour:
   Vida: 0
   Derrotado: 0
   Jogador: {fileID: 199160545}
-  Detector: 10
   Ida: 3
   Volta: 3
   Teto: {x: 0, y: 0}
   Caverna: 0
+  Ativado: 0
+  Detector: 1
   DistanciaJogador: 0
 --- !u!50 &2099204401
 Rigidbody2D:

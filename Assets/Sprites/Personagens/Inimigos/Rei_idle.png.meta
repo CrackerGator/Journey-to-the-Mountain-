@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a184d81ad6d8caa408bf1e6420b9d01d
+guid: 376801b1a1817e445a4db49517402709
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1074295228166103124
-    second: OldCroc_Idle_0
+      213: -7417601361803596638
+    second: Rei_idle_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OldCroc_Idle_0
+      name: Rei_idle_0
       rect:
         serializedVersion: 2
-        x: 9
+        x: 0
         y: 0
-        width: 61
-        height: 45
+        width: 96
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 450ecb271d9a8ee00800000000000000
-      internalID: 1074295228166103124
+      spriteID: 2ac2e309cd26f0990800000000000000
+      internalID: -7417601361803596638
       vertices: []
       indices: 
       edges: []
@@ -133,9 +133,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      OldCroc_Idle_0: 1074295228166103124
+      Rei_idle_0: -7417601361803596638
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

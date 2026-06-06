@@ -3,31 +3,30 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class KingCroc : Inimigo{ 
+public class Rei : Inimigo{ 
     private SpriteRenderer Sprite1;
     private Animator Animacao;
     public Transform Jogador;
-    
 
     [Header("Ataque")]
     public GameObject ColliderDano;
     public GameObject Ataque_Esquerda;
     public GameObject Ataque_Direita;
     public GameObject ColliderDash;
-    public float Range = 3f;
 
     [Header("Cooldown")]
-    public float CooldownAtaque = 2f;
-    private float CooldownTempo;
+    public float Cooldown = 2f;
+    private float CooldownAtual;
 
     [Header("Dash")]
     public float DashVelocidade = 8f;
     public float DashDuracao = 1.5f;
-    public float DashChance = 0.2f;
+    public float DashChance = 0.5f;
 
-    [Header("Dash")]
+    [Header("Verificadores")]
     public bool Atacando;
     public float Preparando = 0.8f;
+    public Detector_Ataque Detector;
 
     void Start(){
         Sprite1 = GetComponent<SpriteRenderer>();
@@ -41,10 +40,11 @@ public class KingCroc : Inimigo{
     }
 
     void Update(){
+        if (Derrotado){return;}
         if (Jogador == null){return;}
 
-        if (CooldownTempo > 0){
-            CooldownTempo -= Time.deltaTime;
+        if (CooldownAtual > 0){
+            CooldownAtual -= Time.deltaTime;
             return;
         }
 
@@ -58,13 +58,12 @@ public class KingCroc : Inimigo{
         else
         Sprite1.flipX = false;
 
-        if(Random.value < DashChance * Time.deltaTime){
-            StartCoroutine(Dash());
+        if (Detector.JogadorNoAlcance){
+            StartCoroutine(Ataque());
             return;
         }
-
-        if (Distancia <= Range){
-            StartCoroutine(Ataque());
+        if(Random.value < DashChance * Time.deltaTime){
+            StartCoroutine(Dash());
             return;
         }
     }
@@ -73,7 +72,9 @@ public class KingCroc : Inimigo{
         Atacando = true;
         yield return StartCoroutine(Preparar("Mordida"));
 
-        Animacao.Play("King_Mordida");
+        if (Derrotado){yield break;}
+
+        Animacao.Play("Rei_Mordida");
 
         if(Sprite1.flipX == true){
             Ataque_Direita.SetActive(true);
@@ -93,12 +94,14 @@ public class KingCroc : Inimigo{
         Atacando = true;
         yield return StartCoroutine(Preparar("Dash"));
 
+        if (Derrotado){yield break;}
+
         float T0 = 0f;
         Vector2 Direcao = (Jogador.position - transform.position).normalized;
         Direcao.y = 0;
         Direcao = Direcao.normalized;
 
-        Animacao.Play("King_Dash");
+        Animacao.Play("Rei_Dash");
         while(T0 < DashDuracao){
             ColliderDano.SetActive(false);
             ColliderDash.SetActive(true);
@@ -107,7 +110,6 @@ public class KingCroc : Inimigo{
             
             T0 += Time.deltaTime;
             yield return null;
-
             
         }
         ColliderDash.SetActive(false);
@@ -125,13 +127,16 @@ public class KingCroc : Inimigo{
             Animacao.Play("Preparar_Dash");
         }
         yield return new WaitForSeconds(Preparando);
+
+        if (Derrotado){yield break;}
     }
 
     void TerminarAtaque(){
+        if (Derrotado){return;}
         Atacando = false;
         Body.linearVelocity = Vector2.zero;
-        Animacao.Play("King_Idle");
-        CooldownTempo = CooldownAtaque;
+        Animacao.Play("Rei_Idle");
+        CooldownAtual = Cooldown;
     }
 
     protected override void Morrer(){
@@ -142,7 +147,7 @@ public class KingCroc : Inimigo{
         if (Body != null){
             Body.linearVelocity = Vector2.zero;
         }
-        Animacao.Play("King_Derrotado");
+        Animacao.Play("Rei_Derrotado");
         StartCoroutine(Desativar());
     }
 }

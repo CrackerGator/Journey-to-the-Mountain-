@@ -3433,7 +3433,7 @@ Transform:
   m_GameObject: {fileID: 164700478}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.77000046, y: 0.52000046, z: -10}
+  m_LocalPosition: {x: 0.57335246, y: 0.52000046, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14556,8 +14556,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5, y: 3}
-    newSize: {x: 5, y: 3}
+    oldSize: {x: 3.75, y: 2.75}
+    newSize: {x: 3.75, y: 2.75}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -14613,12 +14613,12 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: a184d81ad6d8caa408bf1e6420b9d01d, type: 3}
+  m_Sprite: {fileID: 4875054532204853888, guid: c2017237e31e4a6409646816940896d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5, y: 3}
+  m_Size: {x: 3.75, y: 2.75}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -14632,7 +14632,7 @@ Transform:
   m_GameObject: {fileID: 568894601}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.37, y: -1.8, z: 0}
+  m_LocalPosition: {x: 8.37, y: -1.9057832, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15090,12 +15090,12 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 00f65d12bf3791b40a35e9a4f1660cae, type: 3}
+  m_Sprite: {fileID: -8958988217088283558, guid: cdd7864cfb824c049927f3f4c6a7e708, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 6.25, y: 7.625}
+  m_Size: {x: 3.5625, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -15109,7 +15109,7 @@ Transform:
   m_GameObject: {fileID: 777072291}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.77000046, y: -1.4799995, z: 0}
+  m_LocalPosition: {x: 0.57335246, y: -1.4799995, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16201,6 +16201,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200931907}
   m_CullTransparentMesh: 1
+--- !u!1 &1217425239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1217425241}
+  - component: {fileID: 1217425240}
+  m_Layer: 0
+  m_Name: Verifica nome
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1217425240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217425239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b33c423d9c517245ad9d49f1229982c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Verifica_Nome
+  NPC: {fileID: 568894601}
+--- !u!4 &1217425241
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217425239}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 294.45132, y: -1.89989, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1237281201
 GameObject:
   m_ObjectHideFlags: 0
@@ -17031,7 +17076,7 @@ MonoBehaviour:
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Mas eu jamais te diria, heheheheh!
-    NomePersonagem: Velho Crocdilo
+    NomePersonagem: Velho Crocodilo
     ImagemPersonagem: {fileID: 1617426678, guid: 4ee1ee102a52f8642aac1ce841f3f8bd, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
@@ -17328,7 +17373,7 @@ Transform:
   m_GameObject: {fileID: 2078062161}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.77000046, y: 0.52000046, z: -10}
+  m_LocalPosition: {x: 0.57335246, y: 0.52000046, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17582,13 +17627,14 @@ SceneRoots:
   - {fileID: 2078062166}
   - {fileID: 1940148841}
   - {fileID: 164700481}
+  - {fileID: 1862494783}
   - {fileID: 430296973}
   - {fileID: 897838912}
   - {fileID: 766371967}
+  - {fileID: 299294088}
+  - {fileID: 801741347}
   - {fileID: 777072297}
   - {fileID: 568894605}
-  - {fileID: 801741347}
-  - {fileID: 1862494783}
-  - {fileID: 299294088}
+  - {fileID: 1217425241}
   - {fileID: 1747530716}
   - {fileID: 432221033}
