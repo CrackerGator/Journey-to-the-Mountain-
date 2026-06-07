@@ -35,14 +35,4 @@ public class SaveManager : MonoBehaviour{
         else
         return false;
     }
-
-    //Eu só preciso disso pra testar as fases sem reiniciar o jogo
-    //O GameObject SaveManager se cria automaticamente
-    [RuntimeInitializeOnLoadMethod]
-    static void Init(){
-        if (Instancia == null){
-            GameObject obj = new GameObject("SaveManager");
-            obj.AddComponent<SaveManager>();
-        }
-    }
 }

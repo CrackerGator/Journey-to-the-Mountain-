@@ -20,7 +20,6 @@ public class Interagir : MonoBehaviour{
         }
     }
     
-    
     protected virtual void OnTriggerEnter2D(Collider2D collider){
         if (collider.CompareTag("Jogador")){
             Perto = true;

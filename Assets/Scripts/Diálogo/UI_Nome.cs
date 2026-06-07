@@ -12,4 +12,3 @@ public void botao(){
         gameObject.SetActive(false);
     }
 }
-

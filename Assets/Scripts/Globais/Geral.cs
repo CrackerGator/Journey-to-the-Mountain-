@@ -33,14 +33,4 @@ public class Geral : MonoBehaviour{
         Chaves = 0;
         Atalho = false;
     }
-
-    //Eu só preciso disso pra testar as fases sem reiniciar o jogo
-    //O GameObject Geral se cria automaticamente
-    [RuntimeInitializeOnLoadMethod]
-    static void Init(){
-        if (Instancia == null){
-            GameObject Teste = new GameObject("Geral");
-            Teste.AddComponent<Geral>();
-        }
-    }
 }

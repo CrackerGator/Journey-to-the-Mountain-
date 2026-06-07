@@ -66,6 +66,7 @@ public class Caixa_Dialogo : MonoBehaviour{
             Indice++;
         }
         
+        
         Ativa = false;
         if(J != null){J.enabled = true;}
         
