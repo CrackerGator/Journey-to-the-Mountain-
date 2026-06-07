@@ -919,7 +919,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "E voc\xEA \xE9 o famoso \"quem\"?  "
     NomePersonagem: 
-    ImagemPersonagem: {fileID: -8601340400568838170, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: -124828333, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -949,7 +949,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Ent\xE3o, a \"vossa majestade\" vai me deixar passar ou..."
     NomePersonagem: 
-    ImagemPersonagem: {fileID: -7662081735935007983, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: 1467770775, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -985,7 +985,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: ...
     NomePersonagem: 
-    ImagemPersonagem: {fileID: -7662081735935007983, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: 1467770775, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -3047,7 +3047,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "E voc\xEA \xE9 o famoso \"quem\"?  "
     NomePersonagem: 
-    ImagemPersonagem: {fileID: -8601340400568838170, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: -124828333, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -3077,7 +3077,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Ent\xE3o, a \"vossa majestade\" vai me deixar passar ou..."
     NomePersonagem: 
-    ImagemPersonagem: {fileID: -7662081735935007983, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: 1467770775, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}

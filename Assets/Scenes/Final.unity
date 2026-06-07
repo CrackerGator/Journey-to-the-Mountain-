@@ -969,7 +969,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Quem... ou o que \xE9 voc\xEA?"
     NomePersonagem: 
-    ImagemPersonagem: {fileID: -8601340400568838170, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: -124828333, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -988,7 +988,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: '"Final" do que?'
     NomePersonagem: 
-    ImagemPersonagem: {fileID: -8601340400568838170, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: -124828333, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -1049,7 +1049,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Na verdade eu nem sei se isso \xE9 um nome!"
     NomePersonagem: ??????
-    ImagemPersonagem: {fileID: -7388317241624994681, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: -1051650702, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -1098,7 +1098,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Eu... sou um personagem de um jogo, n\xE3o sou?"
     NomePersonagem: ??????
-    ImagemPersonagem: {fileID: -7388317241624994681, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: -1051650702, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -1700,7 +1700,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Quem... ou o que \xE9 voc\xEA?"
     NomePersonagem: 
-    ImagemPersonagem: {fileID: -8601340400568838170, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: -124828333, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -1719,7 +1719,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: '"Final" do que?'
     NomePersonagem: 
-    ImagemPersonagem: {fileID: -8601340400568838170, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: -124828333, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -1780,7 +1780,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Na verdade eu nem sei se isso \xE9 um nome!"
     NomePersonagem: ??????
-    ImagemPersonagem: {fileID: -7388317241624994681, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: -1051650702, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -1800,7 +1800,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Eu... sou um personagem de um jogo, n\xE3o sou?"
     NomePersonagem: ??????
-    ImagemPersonagem: {fileID: -7388317241624994681, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: -1051650702, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -2926,7 +2926,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Quem... ou o que \xE9 voc\xEA?"
     NomePersonagem: 
-    ImagemPersonagem: {fileID: -8601340400568838170, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: -124828333, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -2945,7 +2945,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: '"Final" do que?'
     NomePersonagem: 
-    ImagemPersonagem: {fileID: -8601340400568838170, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: -124828333, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -2988,7 +2988,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Eu... deveria ter um?
     NomePersonagem: 
-    ImagemPersonagem: {fileID: -7388317241624994681, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: -1051650702, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -3006,7 +3006,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Eu... n\xE3o sei..."
     NomePersonagem: ??????
-    ImagemPersonagem: {fileID: -7388317241624994681, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: -1051650702, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -3025,7 +3025,7 @@ MonoBehaviour:
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Eu... sou um personagem de um jogo, n\xE3o sou?"
     NomePersonagem: ??????
-    ImagemPersonagem: {fileID: -7388317241624994681, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+    ImagemPersonagem: {fileID: -1051650702, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
@@ -3107,7 +3107,7 @@ MonoBehaviour:
     Jogador: 0
     Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
-  - Texto: Eu SEREI um desenvolvedor de jogos!
+  - Texto: Eu VOU ser um desenvolvedor de jogos!
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0

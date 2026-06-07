@@ -17,7 +17,6 @@ public enum Estado {Inicial, Indo, Voltando}
     [Header("Verificadores")]
     public Vector2 Teto;
     public bool Caverna = false;
-    public bool Ativado = false;
     public float Detector = 1f;
     public float DistanciaJogador;
 
@@ -41,10 +40,10 @@ public enum Estado {Inicial, Indo, Voltando}
                 Body.linearVelocity = Vector2.zero;
                 Animacao.Play("Morcego_Idle");
                 
-                bool Ativar = Mathf.Abs(Jogador.position.x - transform.position.x) < Detector;
+                bool Ativar = Mathf.Abs(Jogador.position.x - transform.position.x) < Detector
+                && Jogador.position.y < transform.position.y;
 
                 if(Caverna && Ativar){
-                    Ativado = true;
                     EstadoAtual = Estado.Indo;
                 }
             break;
@@ -81,7 +80,6 @@ public enum Estado {Inicial, Indo, Voltando}
                 transform.position = Vector2.MoveTowards(transform.position, Teto, Volta * Time.deltaTime);
 
                 if (Vector2.Distance(transform.position, Teto) < 0.1f){
-                    Ativado = false;
                     EstadoAtual = Estado.Inicial;
                 }
             break;
