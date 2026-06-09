@@ -44,6 +44,9 @@ public class Jogador : MonoBehaviour{
         Sprite1 = GetComponent<SpriteRenderer>();
         Animacao = GetComponent<Animator>();
 
+        Vida = VidaTotal;
+        UI.Instancia.AtualizarVida(Vida);
+
         foreach (Transform Objetos in transform){
             Objetos.gameObject.SetActive(false);
         }
@@ -134,7 +137,7 @@ public class Jogador : MonoBehaviour{
         }
         
         Vida -= Dano;
-        Debug.Log("Jogador tomou dano! Vida atual: " + Vida);
+        UI.Instancia.AtualizarVida(Vida);
 
         Vector2 Direcao = ((Vector2)transform.position - DirecaoInimigo).normalized;
         StartCoroutine(Knockback(Direcao));
