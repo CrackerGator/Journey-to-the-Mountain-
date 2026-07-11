@@ -268,6 +268,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Jogador_dialogos_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e843876c5c88657449fb3245e79a7aab
+      internalID: -1438837863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jogador_dialogos_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37b78e565f74b9438a49380aa7e2417
+      internalID: 1386667969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -291,6 +335,8 @@ TextureImporter:
       Jogador_dialogos_4: 1467770775
       Jogador_dialogos_5: -124828333
       Jogador_dialogos_6: -1397784687
+      Jogador_dialogos_7: -1438837863
+      Jogador_dialogos_8: 1386667969
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

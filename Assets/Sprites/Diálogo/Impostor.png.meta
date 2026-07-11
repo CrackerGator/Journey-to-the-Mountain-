@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 21dae5110bb6f244fb789f3a7e721466
+guid: 59dd97fac906cb84e95a8ae325c119ff
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1521906057099838216
-    second: Chaos_dialogos_0
-  - first:
-      213: -7043457426949950918
-    second: Chaos_dialogos_1
-  - first:
-      213: 6870354341996711341
-    second: Chaos_dialogos_2
+      213: 1367445200737721504
+    second: Impostor_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,67 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Chaos_dialogos_0
+      name: Impostor_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 62
-        height: 62
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80383fade75ee1510800000000000000
-      internalID: 1521906057099838216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Chaos_dialogos_1
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 1
-        width: 62
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a32bf0cb9cc904e90800000000000000
-      internalID: -7043457426949950918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Chaos_dialogos_2
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 1
-        width: 62
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dadc6c39fd6685f50800000000000000
-      internalID: 6870354341996711341
+      spriteID: 0acd8cf3a242af210800000000000000
+      internalID: 1367445200737721504
       vertices: []
       indices: 
       edges: []
@@ -175,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 49675472b2cb8904f8b41fd045001a39
     internalID: 0
     vertices: []
     indices: 
@@ -183,11 +133,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Chaos_dialogos_0: 1521906057099838216
-      Chaos_dialogos_1: -7043457426949950918
-      Chaos_dialogos_2: 6870354341996711341
+      Impostor_0: 1367445200737721504
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

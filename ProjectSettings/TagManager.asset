@@ -9,6 +9,7 @@ TagManager:
   - Jogador
   - Hitbox
   - Caverna
+  - hitbox
   layers:
   - Default
   - TransparentFX
@@ -54,6 +55,9 @@ TagManager:
     locked: 0
   - name: Characters
     uniqueID: 1208312287
+    locked: 0
+  - name: UI
+    uniqueID: 938111585
     locked: 0
   m_RenderingLayers:
   - Default

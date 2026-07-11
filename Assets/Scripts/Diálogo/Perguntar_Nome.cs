@@ -9,7 +9,6 @@ public class Perguntar_Nome : Interagir{
     public GameObject Dialogo3;
     public GameObject Dialogo4;
     public GameObject UltimoDialogo;
-    public bool EmSequencia;
     public int i = 0;
 
     private Jogador J;
@@ -28,7 +27,6 @@ public class Perguntar_Nome : Interagir{
             case 1:
                 EmSequencia = true;
                 J.enabled = false;
-                
                 StartCoroutine(Nome());
             break;
 
@@ -50,7 +48,7 @@ public class Perguntar_Nome : Interagir{
         J.enabled = false;
         
         InputNome.SetActive(true);
-        yield return new WaitUntil(() => UI_Nome.Confirmado);
+        yield return new WaitUntil(() => Botao_Nome.Confirmado);
 
         Dialogo3.SetActive(true);
         yield return new WaitUntil(() => !Caixa_Dialogo.Ativa);

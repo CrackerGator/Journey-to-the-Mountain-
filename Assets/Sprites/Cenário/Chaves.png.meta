@@ -122,10 +122,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0a1333edcd2562a00800000000000000
-      internalID: 731363098068464032
+      spriteID: 0c6ba45e5fdfc544480fabbfc67c3dd2
+      internalID: -1386169846
       vertices: []
       indices: 
       edges: []
@@ -144,10 +144,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ca5239b4ce470c700800000000000000
-      internalID: 558574912022980012
+      spriteID: b00937a6f5cd95948b77af342a8898c6
+      internalID: 1321187753
       vertices: []
       indices: 
       edges: []
@@ -166,10 +166,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5c4207906f8842400800000000000000
-      internalID: 298514065614972101
+      spriteID: 6a85a6b31303f644e838d57c82a15ecc
+      internalID: 1449112624
       vertices: []
       indices: 
       edges: []
@@ -188,10 +188,54 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a01c519f5bdcba780800000000000000
-      internalID: -8670610476120030966
+      spriteID: 881f9ea6803703e49a2fa8d7a02d6455
+      internalID: 361029932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chaves_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa58f6c2d1a6aa444bb8123abcd4c5c3
+      internalID: 1764628376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chaves_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad66230bc0282a14c822dcb675429a7f
+      internalID: -1775219999
       vertices: []
       indices: 
       edges: []
@@ -212,10 +256,12 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Chaves_0: 731363098068464032
-      Chaves_1: 558574912022980012
-      Chaves_2: 298514065614972101
-      Chaves_3: -8670610476120030966
+      Chaves_0: -1386169846
+      Chaves_1: 1321187753
+      Chaves_2: 1449112624
+      Chaves_3: 361029932
+      Chaves_4: 1764628376
+      Chaves_5: -1775219999
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

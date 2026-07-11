@@ -1,9 +1,6 @@
 using UnityEngine;
-using Unity.Mathematics;
-using Unity.VisualScripting;
 using System.Collections;
-using UnityEngine.SceneManagement;
-using UnityEditor;
+
 
 public class Jogador : MonoBehaviour{
 
@@ -38,11 +35,17 @@ public class Jogador : MonoBehaviour{
     public float TempoKnock;
     public bool Invencivel = false;
     public float TempoInvencivel;
+
+    [Header("Sons")]
+    private AudioSource Audio;
+    public AudioClip Som_Pulo;
+    public AudioClip Som_Ataque;
     
     void Start(){
         Body = GetComponent<Rigidbody2D>();
         Sprite1 = GetComponent<SpriteRenderer>();
         Animacao = GetComponent<Animator>();
+        Audio = GetComponent<AudioSource>();
 
         Vida = VidaTotal;
         UI.Instancia.AtualizarVida(Vida);
@@ -62,7 +65,7 @@ public class Jogador : MonoBehaviour{
 
         if(Vida <= 0){
             this.enabled = false;
-            Game_Over.Instancia.Perdeu();
+            UI.Instancia.AtivarGameOver();
             Geral.Instancia.Mortes++;
         }
     }
@@ -127,7 +130,6 @@ public class Jogador : MonoBehaviour{
                 AtaqueEsquerda.SetActive(false);
             }
         }
-
         Atacando = false;
     }
 

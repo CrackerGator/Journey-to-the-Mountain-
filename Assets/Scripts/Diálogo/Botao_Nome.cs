@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UI_Nome : MonoBehaviour{
+public class Botao_Nome : MonoBehaviour{
 
 public InputField InputNome;
 public static bool Confirmado = false;
 
-public void botao(){
+public void Confirmar(){
         Geral.Instancia.NomeJogador = InputNome.text;
         Confirmado = true;
         gameObject.SetActive(false);

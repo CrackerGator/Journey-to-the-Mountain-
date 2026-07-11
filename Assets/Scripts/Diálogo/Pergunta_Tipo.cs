@@ -10,7 +10,6 @@ public class Pergunta_Tipo : Interagir{
     public GameObject UltimoDialogo;
 
     private bool Escolheu = false;
-    private bool EmSequencia = false;
     private Jogador J;
 
     void Awake(){

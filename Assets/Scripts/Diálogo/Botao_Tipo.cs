@@ -1,9 +1,7 @@
 using UnityEngine;
 
-public class Botâo_Tipo : MonoBehaviour{
-
+public class Botao_Tipo : MonoBehaviour{
     public TipoAnimal Tipo;
-
     public GameObject CaixaEscolha;
 
     public void Escolher(){

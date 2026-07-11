@@ -119,81 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &12595360
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 12595361}
-  - component: {fileID: 12595363}
-  - component: {fileID: 12595362}
-  m_Layer: 5
-  m_Name: Imagem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &12595361
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 12595360}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 601964800}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -730, y: 28}
-  m_SizeDelta: {x: 250, y: 250}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &12595362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 12595360}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &12595363
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 12595360}
-  m_CullTransparentMesh: 1
 --- !u!1 &76417742
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,164 +560,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!1 &573793275
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 573793276}
-  - component: {fileID: 573793278}
-  - component: {fileID: 573793277}
-  m_Layer: 5
-  m_Name: Linha
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &573793276
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573793275}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 601964800}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: -1}
-  m_SizeDelta: {x: 1320, y: 250}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &573793277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573793275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
-    m_FontSize: 45
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 50
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &573793278
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573793275}
-  m_CullTransparentMesh: 1
---- !u!1 &599722876
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 599722877}
-  - component: {fileID: 599722879}
-  - component: {fileID: 599722878}
-  m_Layer: 5
-  m_Name: Linha
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &599722877
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599722876}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1241335048}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: -1}
-  m_SizeDelta: {x: 1320, y: 250}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &599722878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599722876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
-    m_FontSize: 45
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 50
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &599722879
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599722876}
-  m_CullTransparentMesh: 1
 --- !u!1 &601964799
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,9 +593,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 573793276}
-  - {fileID: 12595361}
-  - {fileID: 745400625}
+  - {fileID: 774786758}
+  - {fileID: 1249523224}
+  - {fileID: 1762736322}
   m_Father: {fileID: 851120754}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -945,271 +712,272 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db7a45b4d9a1b7a4d81addab95a27fc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Caixa_Dialogo
-  TextoUI: {fileID: 573793277}
-  NomeUI: {fileID: 745400626}
-  ImagemUI: {fileID: 12595362}
+  TextoUI: {fileID: 1249523225}
+  NomeUI: {fileID: 1568069440}
+  ImagemUI: {fileID: 774786759}
+  Fonte: {fileID: 11400000, guid: 644d1ed9b8e2b8d418fbd5638516a306, type: 2}
   ListaFalas:
   - Texto: "Voc\xEA!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Eu?
     NomePersonagem: 
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Voc\xEA realmente chegou at\xE9 aqui!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Quem... ou o que \xE9 voc\xEA?"
     NomePersonagem: 
     ImagemPersonagem: {fileID: -124828333, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Eu n\xE3o tenho exatamente um nome, apenas aqueles que outros atribuem
       \xE1 mim."
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: No seu caso, acho que pode se dizer que eu sou o "Final".
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: '"Final" do que?'
     NomePersonagem: 
     ImagemPersonagem: {fileID: -124828333, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "O final da sua jornada, \xE9 claro."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "E se voc\xEA n\xE3o achar um lugar macio para cair, serei o final da
       sua vida tamb\xE9m..."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 6870354341996711341, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: ...
     NomePersonagem: 
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "E voc\xEA, tem um nome?"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Meu nome \xE9... {Nome}."
     NomePersonagem: 
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "\"{Nome}\", ent\xE3o?"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: ...
     NomePersonagem: 
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "N\xE3o! "
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: -8197775242444603051, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Esse n\xE3o \xE9 o meu nome!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Na verdade eu nem sei se isso \xE9 um nome!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: -1051650702, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "N\xE3o se preocupe, a maioria dos crocodilos tamb\xE9m n\xE3o tem um
       nome."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Eu sou um jacar\xE9!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: -8197775242444603051, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "N\xE3o, voc\xEA \xE9 um crocodilo."
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Ah...
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Mas n\xE3o deixe isso te afetar agora."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "A esse ponto voc\xEA deve ter percebido que \xE9 mais do que um crocodilo."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Ou um jacar\xE9."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Eu... sou um personagem de um jogo, n\xE3o sou?"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: -1051650702, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "N\xE3o qualquer personagem!"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 6870354341996711341, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Voc\xEA \xE9 a porta de entrada para um mundo de inifinitas possibilidades!"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Voc\xEA \xE9 o protagonista!"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Voc\xEA n\xE3o est\xE1 preso a um nome ou a sua esp\xE9cie e muito menos
       a essa montanha!"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Tudo que eles veem, tudo que eles sentem...
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "\xC9 tudo atrav\xE9s do que voc\xEA escolhe ser ou fazer"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Ent\xE3o eu quero ser um desenvolvedor de jogos."
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Venha comigo, ascenda sua consci\xEAnica e torne-se..."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: -7043457426949950918, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: ...
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: O que disse?
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Se isso \xE9 tudo um jogo, ent\xE3o eu serei o desenvolvedor!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Quando subi essa montanha, n\xE3o sabia o que estava procurando"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Mas agora eu sei!
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
-  - Texto: "Essa \xE9 a verdadeira montanha que eu precisva subir!"
+  - Texto: "Essa \xE9 a verdadeira montanha que eu precisava subir!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Eu SEREI um desenvolvedor de jogos!
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: ...
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Certo...
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Fa\xE7a como quiser, ent\xE3o..."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 6870354341996711341, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   Velocidade: 0.03
 --- !u!114 &601964803
@@ -1255,7 +1023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 7, y: 7}
+  m_EffectDistance: {x: 10, y: 10}
   m_UseGraphicAlpha: 1
 --- !u!222 &601964805
 CanvasRenderer:
@@ -1265,7 +1033,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601964799}
   m_CullTransparentMesh: 1
---- !u!1 &745400624
+--- !u!1 &624778313
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1273,9 +1041,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 745400625}
-  - component: {fileID: 745400627}
-  - component: {fileID: 745400626}
+  - component: {fileID: 624778314}
+  - component: {fileID: 624778317}
+  - component: {fileID: 624778316}
+  - component: {fileID: 624778315}
   m_Layer: 5
   m_Name: Nome
   m_TagString: Untagged
@@ -1283,13 +1052,104 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &745400625
+--- !u!224 &624778314
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745400624}
+  m_GameObject: {fileID: 624778313}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1158329114}
+  m_Father: {fileID: 1241335048}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -740, y: -165}
+  m_SizeDelta: {x: 340, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &624778315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624778313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 10, y: 10}
+  m_UseGraphicAlpha: 1
+--- !u!114 &624778316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624778313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.9889894, b: 0.8660377, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &624778317
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624778313}
+  m_CullTransparentMesh: 1
+--- !u!1 &774786757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 774786758}
+  - component: {fileID: 774786760}
+  - component: {fileID: 774786759}
+  m_Layer: 5
+  m_Name: Imagem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &774786758
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774786757}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1299,95 +1159,16 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -740, y: -130}
-  m_SizeDelta: {x: 300, y: 50}
+  m_AnchoredPosition: {x: -740, y: 5}
+  m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &745400626
+--- !u!114 &774786759
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745400624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
-    m_FontSize: 35
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &745400627
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745400624}
-  m_CullTransparentMesh: 1
---- !u!1 &840168762
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 840168763}
-  - component: {fileID: 840168765}
-  - component: {fileID: 840168764}
-  m_Layer: 5
-  m_Name: Imagem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &840168763
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 840168762}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1241335048}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -730, y: 28}
-  m_SizeDelta: {x: 250, y: 250}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &840168764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 840168762}
+  m_GameObject: {fileID: 774786757}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -1411,13 +1192,13 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &840168765
+--- !u!222 &774786760
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 840168762}
+  m_GameObject: {fileID: 774786757}
   m_CullTransparentMesh: 1
 --- !u!1 &851120750
 GameObject:
@@ -1524,6 +1305,447 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1039799606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1039799607}
+  - component: {fileID: 1039799610}
+  - component: {fileID: 1039799609}
+  - component: {fileID: 1039799608}
+  m_Layer: 5
+  m_Name: Nome
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1039799607
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039799606}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1919598631}
+  m_Father: {fileID: 1905835648}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -740, y: -165}
+  m_SizeDelta: {x: 340, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1039799608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039799606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 10, y: 10}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1039799609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039799606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.9889894, b: 0.8660377, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1039799610
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039799606}
+  m_CullTransparentMesh: 1
+--- !u!1 &1047268471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1047268472}
+  - component: {fileID: 1047268474}
+  - component: {fileID: 1047268473}
+  m_Layer: 5
+  m_Name: Imagem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1047268472
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047268471}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1241335048}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -740, y: 5}
+  m_SizeDelta: {x: 300, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1047268473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047268471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1047268474
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047268471}
+  m_CullTransparentMesh: 1
+--- !u!1 &1078466779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1078466780}
+  - component: {fileID: 1078466782}
+  - component: {fileID: 1078466781}
+  m_Layer: 5
+  m_Name: Linha (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1078466780
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078466779}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1905835648}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 185, y: -11}
+  m_SizeDelta: {x: 1320, y: 250}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1078466781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078466779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 644d1ed9b8e2b8d418fbd5638516a306, type: 2}
+  m_sharedMaterial: {fileID: -514228279117026153, guid: 644d1ed9b8e2b8d418fbd5638516a306, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 40
+  m_fontSizeBase: 40
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1078466782
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078466779}
+  m_CullTransparentMesh: 1
+--- !u!1 &1158329113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1158329114}
+  - component: {fileID: 1158329116}
+  - component: {fileID: 1158329115}
+  m_Layer: 5
+  m_Name: Nome (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1158329114
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158329113}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 624778314}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 325, y: 45}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1158329115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158329113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 644d1ed9b8e2b8d418fbd5638516a306, type: 2}
+  m_sharedMaterial: {fileID: -514228279117026153, guid: 644d1ed9b8e2b8d418fbd5638516a306, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 35
+  m_fontSizeBase: 35
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1158329116
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158329113}
+  m_CullTransparentMesh: 1
 --- !u!1 &1241335047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1557,9 +1779,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 599722877}
-  - {fileID: 840168763}
-  - {fileID: 1511158749}
+  - {fileID: 1659385114}
+  - {fileID: 1047268472}
+  - {fileID: 624778314}
   m_Father: {fileID: 851120754}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1676,242 +1898,242 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db7a45b4d9a1b7a4d81addab95a27fc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Caixa_Dialogo
-  TextoUI: {fileID: 599722878}
-  NomeUI: {fileID: 1511158750}
-  ImagemUI: {fileID: 840168764}
+  TextoUI: {fileID: 1659385115}
+  NomeUI: {fileID: 1158329115}
+  ImagemUI: {fileID: 1047268473}
+  Fonte: {fileID: 11400000, guid: 644d1ed9b8e2b8d418fbd5638516a306, type: 2}
   ListaFalas:
   - Texto: "Voc\xEA!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Eu?
     NomePersonagem: 
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Voc\xEA realmente chegou at\xE9 aqui!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Quem... ou o que \xE9 voc\xEA?"
     NomePersonagem: 
     ImagemPersonagem: {fileID: -124828333, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Eu n\xE3o tenho exatamente um nome, apenas aqueles que outros atribuem
       \xE1 mim."
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: No seu caso, acho que pode se dizer que eu sou o "Final".
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: '"Final" do que?'
     NomePersonagem: 
     ImagemPersonagem: {fileID: -124828333, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "O final da sua jornada, \xE9 claro."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "E se voc\xEA n\xE3o achar um lugar macio para cair, serei o final da
       sua vida tamb\xE9m..."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 6870354341996711341, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: ...
     NomePersonagem: 
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "E voc\xEA, tem um nome?"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Meu nome \xE9... {Nome}."
     NomePersonagem: 
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "\"{Nome}\", ent\xE3o?"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: ...
     NomePersonagem: 
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "N\xE3o! "
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: -8197775242444603051, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Esse n\xE3o \xE9 o meu nome!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Na verdade eu nem sei se isso \xE9 um nome!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: -1051650702, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "N\xE3o se preocupe, a maioria dos crocodilos tamb\xE9m n\xE3o tem um
       nome."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Mas voc\xEA j\xE1 deve ter percebido que \xE9 mais do que isso, n\xE3o
       \xE9?"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Eu... sou um personagem de um jogo, n\xE3o sou?"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: -1051650702, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "N\xE3o qualquer personagem!"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 6870354341996711341, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Voc\xEA \xE9 a porta de entrada para um mundo de inifinitas possibilidades!"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Voc\xEA \xE9 o protagonista!"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
-  - Texto: "Voc\xEA n\xE3o est\xE1 preso a um nome ou a sua esp\xE9cie e muito menos
-      a essa montanha!"
+  - Texto: "Voc\xEA n\xE3o est\xE1 preso a um nome ou muito menos a essa montanha!"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Tudo que eles veem, tudo que eles sentem...
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "\xC9 tudo atrav\xE9s do que voc\xEA escolhe ser ou fazer"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Ent\xE3o eu quero ser um desenvolvedor de jogos."
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Venha comigo, ascenda sua consci\xEAnica e torne-se..."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: -7043457426949950918, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: ...
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: O que disse?
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Se isso \xE9 tudo um jogo, ent\xE3o eu serei o desenvolvedor!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Quando subi essa montanha, n\xE3o sabia o que estava procurando"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Mas agora eu sei!
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
-  - Texto: "Essa \xE9 a verdadeira montanha que eu precisva subir!"
+  - Texto: "Essa \xE9 a verdadeira montanha que eu precisava subir!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Eu SEREI um desenvolvedor de jogos!
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: ...
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Certo...
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Fa\xE7a como quiser, ent\xE3o..."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 6870354341996711341, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   Velocidade: 0.03
 --- !u!114 &1241335051
@@ -1957,7 +2179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 7, y: 7}
+  m_EffectDistance: {x: 10, y: 10}
   m_UseGraphicAlpha: 1
 --- !u!222 &1241335053
 CanvasRenderer:
@@ -1966,6 +2188,143 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241335047}
+  m_CullTransparentMesh: 1
+--- !u!1 &1249523223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1249523224}
+  - component: {fileID: 1249523226}
+  - component: {fileID: 1249523225}
+  m_Layer: 5
+  m_Name: Linha (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1249523224
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249523223}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 601964800}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 185, y: -11}
+  m_SizeDelta: {x: 1320, y: 250}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1249523225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249523223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 644d1ed9b8e2b8d418fbd5638516a306, type: 2}
+  m_sharedMaterial: {fileID: -514228279117026153, guid: 644d1ed9b8e2b8d418fbd5638516a306, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 40
+  m_fontSizeBase: 40
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1249523226
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249523223}
   m_CullTransparentMesh: 1
 --- !u!1 &1300220136
 GameObject:
@@ -2190,164 +2549,6 @@ Transform:
   - {fileID: 1565322318}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1490549538
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1490549539}
-  - component: {fileID: 1490549541}
-  - component: {fileID: 1490549540}
-  m_Layer: 5
-  m_Name: Linha
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1490549539
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1490549538}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1905835648}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: -1}
-  m_SizeDelta: {x: 1320, y: 250}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1490549540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1490549538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
-    m_FontSize: 45
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 50
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &1490549541
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1490549538}
-  m_CullTransparentMesh: 1
---- !u!1 &1511158748
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1511158749}
-  - component: {fileID: 1511158751}
-  - component: {fileID: 1511158750}
-  m_Layer: 5
-  m_Name: Nome
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1511158749
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511158748}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1241335048}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -740, y: -130}
-  m_SizeDelta: {x: 300, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1511158750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511158748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
-    m_FontSize: 35
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &1511158751
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511158748}
-  m_CullTransparentMesh: 1
 --- !u!1 &1565322317
 GameObject:
   m_ObjectHideFlags: 0
@@ -2451,7 +2652,7 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 999
   m_TargetDisplay: 0
---- !u!1 &1619401178
+--- !u!1 &1568069438
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2459,78 +2660,136 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1619401179}
-  - component: {fileID: 1619401181}
-  - component: {fileID: 1619401180}
+  - component: {fileID: 1568069439}
+  - component: {fileID: 1568069441}
+  - component: {fileID: 1568069440}
   m_Layer: 5
-  m_Name: Nome
+  m_Name: Nome (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1619401179
+--- !u!224 &1568069439
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619401178}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_GameObject: {fileID: 1568069438}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1905835648}
+  m_Father: {fileID: 1762736322}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -740, y: -130}
-  m_SizeDelta: {x: 300, y: 50}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 325, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1619401180
+--- !u!114 &1568069440
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619401178}
+  m_GameObject: {fileID: 1568069438}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
-    m_FontSize: 35
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &1619401181
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 644d1ed9b8e2b8d418fbd5638516a306, type: 2}
+  m_sharedMaterial: {fileID: -514228279117026153, guid: 644d1ed9b8e2b8d418fbd5638516a306, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 35
+  m_fontSizeBase: 35
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1568069441
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619401178}
+  m_GameObject: {fileID: 1568069438}
   m_CullTransparentMesh: 1
---- !u!1 &1640132698
+--- !u!1 &1659385113
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2538,9 +2797,146 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1640132699}
-  - component: {fileID: 1640132701}
-  - component: {fileID: 1640132700}
+  - component: {fileID: 1659385114}
+  - component: {fileID: 1659385116}
+  - component: {fileID: 1659385115}
+  m_Layer: 5
+  m_Name: Linha (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1659385114
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659385113}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1241335048}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 185, y: -11}
+  m_SizeDelta: {x: 1320, y: 250}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1659385115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659385113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 644d1ed9b8e2b8d418fbd5638516a306, type: 2}
+  m_sharedMaterial: {fileID: -514228279117026153, guid: 644d1ed9b8e2b8d418fbd5638516a306, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 40
+  m_fontSizeBase: 40
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1659385116
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659385113}
+  m_CullTransparentMesh: 1
+--- !u!1 &1672198474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1672198475}
+  - component: {fileID: 1672198477}
+  - component: {fileID: 1672198476}
   m_Layer: 5
   m_Name: Imagem
   m_TagString: Untagged
@@ -2548,13 +2944,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1640132699
+--- !u!224 &1672198475
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640132698}
+  m_GameObject: {fileID: 1672198474}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -2564,16 +2960,16 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -730, y: 28}
-  m_SizeDelta: {x: 250, y: 250}
+  m_AnchoredPosition: {x: -740, y: 5}
+  m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1640132700
+--- !u!114 &1672198476
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640132698}
+  m_GameObject: {fileID: 1672198474}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -2597,13 +2993,13 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &1640132701
+--- !u!222 &1672198477
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640132698}
+  m_GameObject: {fileID: 1672198474}
   m_CullTransparentMesh: 1
 --- !u!1 &1740370092
 GameObject:
@@ -2750,6 +3146,98 @@ MonoBehaviour:
   DialogoSemNome: {fileID: 1905835647}
   DialogoCrocodilo: {fileID: 1241335047}
   DialogoJacare: {fileID: 601964799}
+--- !u!1 &1762736321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1762736322}
+  - component: {fileID: 1762736325}
+  - component: {fileID: 1762736324}
+  - component: {fileID: 1762736323}
+  m_Layer: 5
+  m_Name: Nome
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1762736322
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762736321}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1568069439}
+  m_Father: {fileID: 601964800}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -740, y: -165}
+  m_SizeDelta: {x: 340, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1762736323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762736321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 10, y: 10}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1762736324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762736321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.9889894, b: 0.8660377, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1762736325
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762736321}
+  m_CullTransparentMesh: 1
 --- !u!1 &1905835647
 GameObject:
   m_ObjectHideFlags: 0
@@ -2783,9 +3271,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1490549539}
-  - {fileID: 1640132699}
-  - {fileID: 1619401179}
+  - {fileID: 1078466780}
+  - {fileID: 1672198475}
+  - {fileID: 1039799607}
   m_Father: {fileID: 851120754}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2902,234 +3390,235 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db7a45b4d9a1b7a4d81addab95a27fc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Caixa_Dialogo
-  TextoUI: {fileID: 1490549540}
-  NomeUI: {fileID: 1619401180}
-  ImagemUI: {fileID: 1640132700}
+  TextoUI: {fileID: 1078466781}
+  NomeUI: {fileID: 1919598632}
+  ImagemUI: {fileID: 1672198476}
+  Fonte: {fileID: 11400000, guid: 644d1ed9b8e2b8d418fbd5638516a306, type: 2}
   ListaFalas:
   - Texto: "Voc\xEA!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Eu?
     NomePersonagem: 
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Voc\xEA realmente chegou at\xE9 aqui!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Quem... ou o que \xE9 voc\xEA?"
     NomePersonagem: 
     ImagemPersonagem: {fileID: -124828333, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Eu n\xE3o tenho exatamente um nome, apenas aqueles que outros atribuem
       \xE1 mim."
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: No seu caso, acho que pode se dizer que eu sou o "Final".
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: '"Final" do que?'
     NomePersonagem: 
     ImagemPersonagem: {fileID: -124828333, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "O final da sua jornada, \xE9 claro."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "E se voc\xEA n\xE3o achar um lugar macio para cair, serei o final da
       sua vida tamb\xE9m..."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 6870354341996711341, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: ...
     NomePersonagem: 
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "E voc\xEA, tem um nome?"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "N\xE3o..."
     NomePersonagem: 
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Interessante...
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 6870354341996711341, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Eu... deveria ter um?
     NomePersonagem: 
     ImagemPersonagem: {fileID: -1051650702, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 1
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "A maioria dos crocodilos n\xE3o tem nome..."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Voc\xEA gostaria de ter um?"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Eu... n\xE3o sei..."
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: -1051650702, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Ent\xE3o n\xE3o se preocupe com isso agora."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "A esse ponto, voc\xEA j\xE1 deve ter percebido algo muito maior do que
       a falta de um nome, n\xE3o?"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Eu... sou um personagem de um jogo, n\xE3o sou?"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: -1051650702, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "N\xE3o qualquer personagem!"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 6870354341996711341, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Voc\xEA \xE9 a porta de entrada para um mundo de inifinitas possibilidades!"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Voc\xEA \xE9 o protagonista!"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Tudo que eles veem, tudo que eles sentem...
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "\xC9 tudo atrav\xE9s do que voc\xEA escolhe ser ou fazer"
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Ent\xE3o eu quero ser um desenvolvedor de jogos."
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Venha comigo, ascenda sua consci\xEAnica e torne-se..."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: -7043457426949950918, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: ...
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: O que disse?
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Se isso \xE9 tudo um jogo, ent\xE3o eu serei o desenvolvedor!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Quando subi essa montanha, n\xE3o sabia o que estava procurando"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 6717519449759683372, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Mas agora eu sei!
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Essa \xE9 a verdadeira montanha que eu precisva subir!"
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Eu VOU ser um desenvolvedor de jogos!
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 8488740891863128800, guid: e190098f808d5034b83e3fe4f4756f95, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: ...
     NomePersonagem: ??????
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: Certo...
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 1521906057099838216, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   - Texto: "Fa\xE7a como quiser, ent\xE3o..."
     NomePersonagem: Final(?)
     ImagemPersonagem: {fileID: 6870354341996711341, guid: 21dae5110bb6f244fb789f3a7e721466, type: 3}
     Jogador: 0
-    Fonte: {fileID: 12800000, guid: df9770868e037bd448ca94a3f7070a69, type: 3}
+    Chaos: 0
     Som: {fileID: 8300000, guid: e5de3231568565d4fb159fa50d1e85f5, type: 3}
   Velocidade: 0.03
 --- !u!114 &1905835651
@@ -3175,7 +3664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 7, y: 7}
+  m_EffectDistance: {x: 10, y: 10}
   m_UseGraphicAlpha: 1
 --- !u!222 &1905835653
 CanvasRenderer:
@@ -3184,6 +3673,143 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905835647}
+  m_CullTransparentMesh: 1
+--- !u!1 &1919598630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1919598631}
+  - component: {fileID: 1919598633}
+  - component: {fileID: 1919598632}
+  m_Layer: 5
+  m_Name: Nome (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1919598631
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919598630}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1039799607}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 325, y: 45}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1919598632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919598630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 644d1ed9b8e2b8d418fbd5638516a306, type: 2}
+  m_sharedMaterial: {fileID: -514228279117026153, guid: 644d1ed9b8e2b8d418fbd5638516a306, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 35
+  m_fontSizeBase: 35
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1919598633
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919598630}
   m_CullTransparentMesh: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

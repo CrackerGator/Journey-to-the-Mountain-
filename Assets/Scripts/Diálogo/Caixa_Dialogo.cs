@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using System;
 using System.Collections.Generic;
+using TMPro;
 
 public class Caixa_Dialogo : MonoBehaviour{
 
@@ -13,14 +14,14 @@ public class Caixa_Dialogo : MonoBehaviour{
         public string NomePersonagem;
         public Sprite ImagemPersonagem;
         public bool Jogador;
-        public Font Fonte;
         public AudioClip Som;
     }
 
     [Header("UI")]
-    public Text TextoUI;
-    public Text NomeUI;
+    public TextMeshProUGUI TextoUI;
+    public TextMeshProUGUI NomeUI;
     public Image ImagemUI;
+    public TMP_FontAsset Fonte;
     private AudioSource Audio;
 
     [Header("Configurações")]
@@ -38,6 +39,9 @@ public class Caixa_Dialogo : MonoBehaviour{
     }
 
     private void OnEnable(){
+        TextoUI.font = Fonte;
+        NomeUI.font = Fonte;
+
         Indice = 0;
         StartCoroutine(Sequencia());
     }
@@ -48,12 +52,8 @@ public class Caixa_Dialogo : MonoBehaviour{
 
         while(Indice < ListaFalas.Count){
             FalaDialogo F = ListaFalas[Indice];
-
-            TextoUI.font = F.Fonte;
-            NomeUI.font = F.Fonte;
-            ImagemUI.sprite = F.ImagemPersonagem;
             
-
+            ImagemUI.sprite = F.ImagemPersonagem;
             if(F.Jogador == true){
                 NomeUI.text = Geral.Instancia.NomeJogador;
             }
@@ -65,7 +65,6 @@ public class Caixa_Dialogo : MonoBehaviour{
 
             Indice++;
         }
-        
         
         Ativa = false;
         if(J != null){J.enabled = true;}
@@ -82,7 +81,6 @@ public class Caixa_Dialogo : MonoBehaviour{
         TextoUI.text = "";
 
         Texto = Texto.Replace("{Nome}", Geral.Instancia.NomeJogador);
-        Texto = Texto.Replace("{Chaves}", (3 - Geral.Instancia.Chaves).ToString());
         
         foreach (char Letra in Texto){
             TextoUI.text += Letra;

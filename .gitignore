@@ -4,7 +4,7 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-UserSettings/
+[Uu]User[Ss]ettings/
 
 *.csproj
 *.unityproj

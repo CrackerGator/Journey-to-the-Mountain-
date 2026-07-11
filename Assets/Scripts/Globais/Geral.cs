@@ -9,7 +9,7 @@ public enum TipoAnimal{
 public class Geral : MonoBehaviour{
     public static Geral Instancia;
 
-    public string NomeJogador = "??????";
+    public string NomeJogador = "Ovo";
     public string FaseAtual = "Fase 1.1";
     public int Mortes = 0;
     public TipoAnimal A = TipoAnimal.Nenhum;
@@ -32,5 +32,15 @@ public class Geral : MonoBehaviour{
         A = TipoAnimal.Nenhum;
         Chaves = 0;
         Atalho = false;
+    }
+
+    //Eu só preciso disso pra testar as fases sem reiniciar o jogo
+    //O GameObject Geral se cria automaticamente
+    [RuntimeInitializeOnLoadMethod]
+    static void Init(){
+        if (Instancia == null){
+            GameObject Teste = new GameObject("Geral");
+            Teste.AddComponent<Geral>();
+        }
     }
 }

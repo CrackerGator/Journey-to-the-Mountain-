@@ -1,8 +1,10 @@
+using System.Collections;
 using UnityEngine;
 
-
 public class Porta_Trancada : Interagir{
-    public int ChavesNecessarias;
+    public GameObject[] Chaves;
+    public int ChavesColetadas = 0;
+    
     public string ProximaCena;
     public string ProximaFase;
 
@@ -10,38 +12,36 @@ public class Porta_Trancada : Interagir{
     public Sprite SpriteAberta;
 
     public GameObject DialogoSemChave;
-    public GameObject DialogoComChave;
-    public GameObject Dialogo1Chave;
     public GameObject DialogoAbrindo;
 
-    private bool Aberta = false;
+    protected bool Aberta = false;
 
+    public virtual void  AdcionarChave(bool Bugado){
+        ChavesColetadas++;
+        UI.Instancia.AtualizarChave(
+            ChavesColetadas,
+            Chaves.Length,
+            false
+        );
+    }
     public override void Interagir1(){
         if(Perto && Input.GetKeyDown(Input1) && !Caixa_Dialogo.Ativa){
             if(Aberta){
-                Geral.Instancia.FaseAtual = ProximaFase;
+                Geral.Instancia.FaseAtual = ProximaFase; 
                 SaveManager.Instancia.Salvar();
                 Fade.Instancia.TrocarCena(ProximaCena);
+                return;
             }
-            if(Geral.Instancia.Chaves >= ChavesNecessarias){
+            if(ChavesColetadas >= Chaves.Length && !Aberta){
                 DialogoAbrindo.SetActive(true);
                 AbrirPorta();
             }
             else{
-                int Faltam = ChavesNecessarias - Geral.Instancia.Chaves;
-                if(Faltam == ChavesNecessarias){
-                    DialogoSemChave.SetActive(true);
-                }
-                else if(Faltam == 1){
-                Dialogo1Chave.SetActive(true);
-                }
-                else if(Faltam < ChavesNecessarias){
-                    DialogoComChave.SetActive(true);
-                }  
+                DialogoSemChave.SetActive(true);
             } 
         }
     }
-    void AbrirPorta(){
+    protected virtual void AbrirPorta(){
         Aberta = true;
         Sprite1.sprite = SpriteAberta;
     }

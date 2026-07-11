@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class Interagir : MonoBehaviour{
@@ -7,9 +6,10 @@ public class Interagir : MonoBehaviour{
     public GameObject Icone;
     public bool Perto;
     public KeyCode Input1;
+    protected bool EmSequencia;
     
     protected virtual void Update(){
-        if (Perto && Input.GetKeyDown(Input1) && !Caixa_Dialogo.Ativa){
+        if (Perto && Input.GetKeyDown(Input1) && !Caixa_Dialogo.Ativa && !EmSequencia){
             Interagir1();
         }
     }
